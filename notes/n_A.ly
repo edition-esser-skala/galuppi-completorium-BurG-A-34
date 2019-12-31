@@ -228,12 +228,12 @@ CumInvocaremAltoLyrics = \lyricmode {
 	ci -- pi -- o
 	et nunc __
 	et sem --
-	per, et in
+	per, et in %10
 	sae -- cu -- la sae -- cu --
 	lo -- rum,
 	a --
 	men,
-	a -- men, et __
+	a -- men, et __ %115
 	in sae -- cu -- la
 	sae -- cu -- lo --
 	rum, a -- men,
