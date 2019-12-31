@@ -20,8 +20,8 @@ CumInvocaremOrgano = {
 		d2 e f g
 		c,1 g' %10
 		c,\breve
-		c
-		g1 c~
+		d^\critnote
+		g,1 c~
 		c2 c d1
 		e2 fis g1 %15
 		g g2 g
@@ -158,7 +158,7 @@ CumInvocaremBassFigures = \figuremode {
 	<6>\breve
 	r
 	r1 <5>2 <6+>
-	r1 <7>2 <6>4 <5> %25
+	r1 <7>2 <5!> %25
 	r1 <7>2 <6>4 <5>
 	r1 <6>2 <5>
 	<4>2 <3>1.
@@ -189,7 +189,7 @@ CumInvocaremBassFigures = \figuremode {
 	<4>1 <3>
 	<4> <3>
 	r\breve %55
-	r2 <2>1.
+	r1 <2>
 	<9>2 <8>1.
 	<_+>\breve
 	<6>1 <5>
