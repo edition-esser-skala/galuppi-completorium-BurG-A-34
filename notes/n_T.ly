@@ -192,7 +192,7 @@ CumInvocaremTenoreLyrics = \lyricmode {
 	tu -- i, Do --
 	mi -- ne:
 	De -- di -- sti lae -- %70
-	ti -- ti -- am in
+	ti -- ti -- am __ in __
 	cor -- de __
 	me -- _ _ _ _
 	_ _ _
