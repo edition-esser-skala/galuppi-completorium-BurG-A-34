@@ -84,9 +84,9 @@ CumInvocaremSopranoNotes = {
 		r2 e1 e2
 		d2. h4 d2 d %70
 		c1. c2
-		a\breve
+		g\breve
 		R\breve*2
-		r1 r2 d %75
+		r1 r2 d' %75
 		d h r e
 		e c r d~
 		d4 d h2 c4 c d2~

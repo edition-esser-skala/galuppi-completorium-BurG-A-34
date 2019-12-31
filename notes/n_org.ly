@@ -13,9 +13,9 @@ CumInvocaremOrgano = {
 		e c g'1
 		r2 e f f
 		d d e e
-		c1 c'~ %5
+		c1 \clef "treble_8" c'~ %5
 		c2 c c c
-		c c,4 d e2 e
+		c \clef bass c,4 d e2 e
 		f1 e
 		d2 e f g
 		c,1 g' %10
@@ -24,38 +24,38 @@ CumInvocaremOrgano = {
 		g,1 c~
 		c2 c d1
 		e2 fis g1 %15
-		g g2 g
+		g \clef treble g'2 g
 		e e r4 f f e
 		d2 d1 c2
-		e e f f
+		\clef bass e, e f f
 		f f e a~ %20
 		a g f1
-		e h'
-		r2 a g g
+		e \clef "treble_8" h'
+		\clef treble c'2^\critnote a g g
 		f f e1
 		d2 d e fis^\critnote %25
-		g g, a' h
-		c c, e fis
+		g \clef "treble_8" g, a h
+		c \clef bass c, e fis
 		g g g g
 		g fis1 fis2~
 		fis e e1 %30
 		d\breve
-		g2 g2. f!4 e d
+		\clef treble g'2 g2. f!4 e d
 		e1 e2 e
-		d2. d4 d2 d
-		g2. g4 g2 g %35
+		\clef "treble_8" d2. d4 d2 d
+		\clef bass g,2. g4 g2 g %35
 		e e e e
 		c1 c
 		f f
 		d d
 		e\breve %40
 		a,
-		r2 a a1
+		\clef treble r2 a' a1
 		a2 a a a
 		f'1 f~
 		f2 f f f %45
 		d d d d
-		g e e e
+		g \clef bass e, e e
 		e f f f
 		f1 f
 		a\breve~ %50
@@ -72,22 +72,22 @@ CumInvocaremOrgano = {
 		e2 g c, e
 		f2. e4 d1
 		c\breve
-		d1 d2 g~
+		\clef treble d'1 d2 g~
 		g f4 e f1 %65
-		r2 a1 a2
+		\clef bass r2 a,1 a2
 		g e g g
 		f1. f2
 		e\breve
-		r2 d' d d %70
-		a a a a
+		\clef "treble_8" r2 d' d d %70
+		a \clef bass a a a
 		e g g4 fis g a
 		h1 h~
 		h2 a4 g a2 g4 fis
 		g d g1 fis2 %75
-		g1 g2 e
+		g1 \clef treble g'2 e
 		r a a fis
 		g1 e2 fis
-		g g d' d,
+		g \clef "treble_8" g, d' \clef bass d,
 		g2. f!4 e2 g %80
 		c,1 c
 		d f
@@ -95,10 +95,10 @@ CumInvocaremOrgano = {
 		a,1 a'
 		a2 a g1 %85
 		f e~
-		e e2 d
+		e \clef treble e'2 d
 		d1 c
 		c2 c c h4 a
-		g'2 g e e %90
+		\clef bass g2 g e e %90
 		a1 g2 g
 		e1 e
 		f1. f2
@@ -112,16 +112,16 @@ CumInvocaremOrgano = {
 		g c,2 c~
 		c c f1
 		d e
-		a, f'~
-		f2 h1 e,2~ %105
+		a, \clef treble f''~
+		f2 \clef "treble_8" h,1 \clef bass e,2~ %105
 		e c f1~
 		f2 d a' a
 		f f d1
 		c g'
-		c, a'~ %110
+		c, \clef "treble_8" a'~ %110
 		a2 a h h
 		g g a1
-		a2 f1 f2
+		a2 \clef bass f1 f2
 		g g e e
 		f1 f2 d~ %115
 		d d e e
@@ -156,8 +156,8 @@ CumInvocaremBassFigures = \figuremode {
 	<5>1 <6> %20
 	<2>2 <6> <7> <6>
 	<6>1 <[3]>
-	r2 q q1
-	r <5>2 <6+>
+	<[1]>2 <[3]> q1
+	q <5>2 <6+>
 	r1 <7>2 <5!> %25
 	r1 <7>2 <5>
 	r1 <6>2 <5>
@@ -165,7 +165,7 @@ CumInvocaremBassFigures = \figuremode {
 	<3>2 q1.
 	<4 2>2 <5 3> <6+>1 %30
 	<[_+]>\breve
-	r
+	<[3]>1.. \bassFigureExtendersOn <3>4 \bassFigureExtendersOff
 	<5>1 <6>
 	<7 _+>2 <6 4> <[5 \t]> <[\t _+]>
 	r\breve %35

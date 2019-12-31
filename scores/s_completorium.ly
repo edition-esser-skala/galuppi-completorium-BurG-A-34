@@ -60,7 +60,7 @@
 				\new FiguredBass { \CumInvocaremBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 1 = 60 }
 		}
 	}
 }
