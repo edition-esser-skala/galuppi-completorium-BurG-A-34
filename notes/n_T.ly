@@ -25,7 +25,7 @@ CumInvocaremTenoreNotes = {
 }
 
 CumInvocaremTenoreLyrics = \lyricmode {
-	
+% 	Multi dicunt: Quis ostendit nobis bona?
 }
 
 % TenoreNotes = {

@@ -76,8 +76,8 @@ CumInvocaremSopranoNotes = {
 		h2 a a a
 		gis\breve
 		R\breve*4 %62
-		r1 r2 c~
-		c \stemUp h4( a h2) \stemNeutral h
+		r1 r2 c
+		c h4 a h2 h
 		a1 a2 d %65
 		d c4 h c1
 		R\breve*2
@@ -97,7 +97,7 @@ CumInvocaremSopranoNotes = {
 		gis a a gis
 		a\breve~
 		a1 r %85
-		r2 a1 g2
+		r2 a1 g!2
 		g1 f
 		f2 f f e4 d
 		e2 d4 c d1~
@@ -190,7 +190,7 @@ CumInvocaremSopranoLyrics = \lyricmode {
 	no.
 	
 	Si -- %63
-	gna -- tum
+	gna -- _ _ _ tum
 	est su -- per %65
 	nos, su -- per nos
 	
