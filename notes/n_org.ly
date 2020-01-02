@@ -290,10 +290,10 @@ InTeDomineOrgano = {
 		f1 d
 		d2 d4 e f2 d
 		a'1 a
-		e1. e2
-		f1 g2 d' %30
+		\clef treble d1.^\critnote d2
+		e1 f2 \clef "treble_8" d %30
 		d g, c c
-		c h h g
+		c h h \clef bass g
 		g c, f f
 		f e e g
 		a1 a2 g %35
@@ -330,11 +330,11 @@ InTeDomineOrgano = {
 		g g g g
 		e e e e
 		f1 f
-		r2 h1 h2
-		h h h h %70
-		e g,1 g2
+		\clef treble r2^\critnote d'1 d2
+		d d d d %70
+		g \clef "treble_8" g,1 g2
 		g g g g
-		c c,1 c2
+		c \clef bass c,1 c2
 		a a a a
 		g'1 g %75
 		g\breve
@@ -371,14 +371,14 @@ InTeDomineBassFigures = \figuremode {
 	r
 	r %20
 	<7>2 <6> <6>1
-	<6>2 <[4-]>4 <[3]> r1
+	<6>2 <[4-]>4 <[3]> <6->1
 	r\breve
-	<6>
+	<6->
 	<3>1 <2>2 <3> %25
 	r1 <5>
 	r\breve
 	<4>1 <3>
-	<5> <6>
+	<5> <6!>
 	<6> <5>2 <8> %30
 	<6>1 <7>2 <6>
 	<5> <6>1.
@@ -424,16 +424,16 @@ InTeDomineBassFigures = \figuremode {
 	<3>
 	r
 	r
-	r
+	r %75
 	r
 	r
 	r
 	<6>
-	q
+	q %80
 	<7>1 <6>
 	<4> <3>
 	<4> <3>
-	r\breve
+	r\breve %84 finis
 }
 
 % Organo = {

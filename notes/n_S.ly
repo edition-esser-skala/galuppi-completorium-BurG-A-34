@@ -249,12 +249,154 @@ InTeDomineSopranoNotes = {
 		\clef treble
 		\key g \mixolydian \time 4/2 \autoBeamOff \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*4
+		d'2 d d d4 d %5
+		e1 e
+		c2. c4 c1
+		d2 d d d4 d
+		h2 h1 h2
+		c1 c %10
+		r2 a d4 c h a
+		d2. d4 d1
+		r2 c c c4 c
+		a1 a
+		h a %15
+		h4 g c2. c4 h2
+		c\breve
+		R\breve*3 %20
+		r2 c1 c2
+		c b4 a b2 b
+		a c a4 f g a
+		b1 b
+		a2.( g8[ f]) g2 g %25
+		a a2. a4 a2
+		a a a a
+		a1 a2 a~
+		a a h! h4 h
+		c2 c1 d2 %30
+		h1. a2
+		g1 r
+		R\breve*2
+		r2 a h2. cis4 %35
+		d2 d d4. d8 e2
+		a,1 r
+		r2 d d c
+		c h h( a)
+		g1 a2.( h4 %40
+		c2) g g g
+		a1 f
+		R\breve
+		a2. a4 h2 h
+		g g a a~ %45
+		a h1 c2
+		a a1 g2
+		g fis4 e fis1
+		g\breve~
+		g1 r %50
+		R\breve*2
+		r1 c2 c
+		a a4 a h4. h8 h2
+		g g a a %55
+		fis1 g2 d'~
+		d4 d d2 h1
+		h r2 g
+		g g c1
+		r r2 a4 a %60
+		a2 a4 a d1
+		d r
+		R\breve*5 %67
+		r2 a1 a2
+		a a4 a a2 a
+		d1 d %70
+		r2 h1 h2
+		h h4 h h2 h
+		e1 e
+		c\breve
+		h2 g1 g2 %75
+		g g4 g g2 g
+		c1 c
+		a\breve
+		c~
+		c1 \once \tieDashed c~ %80
+		c2 h4 a h1
+		c g
+		g\breve
+		g\fermata \bar "|." %84 finis
 	}
 }
 
 InTeDomineSopranoLyrics = \lyricmode {
+	In iu -- sti -- ti -- a %5
+	tu -- a
+	li -- be -- ra
+	me. In -- cli -- na ad
+	me au -- rem
+	tu -- am; %10
+	ac -- ce -- _ _ _
+	_ le -- ra
+	ut e -- ru -- as
+	me, ut
+	e -- _ %15
+	_ _ _ ru -- as
+	me.
 	
+	Et in %21
+	do -- mum re -- fu -- gi --
+	i, ut sal -- _ _ _
+	_ vum
+	me __ fa -- ci -- %25
+	as: Quo -- ni -- am
+	for -- ti -- tu -- do
+	me -- a et __
+	re -- fu -- gi -- um
+	me -- um es %30
+	tu, es
+	tu.
+	
+	E -- du -- ces %35
+	me de la -- que -- o
+	hoc
+	quem ab -- scon --
+	de -- runt mi --
+	hi, ab -- %40
+	scon -- de -- runt
+	mi -- hi,
+	
+	quo -- ni -- am tu
+	es pro -- te -- ctor, __ %45
+	tu es
+	pro -- te -- ctor
+	me -- _ _ _
+	us. __
+	
+	Re -- de -- %53
+	mi -- sti me, Do -- mi -- ne
+	De -- us ve -- ri -- %55
+	ta -- tis. Glo --
+	ri -- a Pa --
+	tri, et
+	Fi -- li -- o,
+	et Spi -- %60
+	ri -- tu -- i San --
+	cto.
+	
+	Et in %68
+	sae -- cu -- la sae -- cu --
+	lo -- rum, %70
+	et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a --
+	men, et in %75
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a --
+	men, __
+	a -- %80
+	_ _ _
+	_ men,
+	a --
+	men. %84 finis
 }
 
 % SopranoNotes = {
