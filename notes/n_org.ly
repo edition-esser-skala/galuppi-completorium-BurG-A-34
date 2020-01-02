@@ -263,11 +263,177 @@ InTeDomineOrgano = {
 		\key g \mixolydian \time 4/2 \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
 		g'1 g
+		c c
+		c2 c c c
+		d d1 d4 c
+		h2 h h h %5
+		e, e e e
+		f1 f
+		d d
+		e\breve
+		a %10
+		d1 d
+		r2 h e4 d c h
+		c2 a a a
+		f1 f
+		g a %15
+		g\breve
+		c,1 f~
+		f2 d g1
+		g1. g2
+		e e4 f g2 e %20
+		a1 a
+		e2 f d4 c d e
+		f1 f
+		d2 d4 c b c d e
+		f c f1 e2 %25
+		f1 d
+		d2 d4 e f2 d
+		a'1 a
+		e1. e2
+		f1 g2 d' %30
+		d g, c c
+		c h h g
+		g c, f f
+		f e e g
+		a1 a2 g %35
+		f1 f2 e
+		f1 d'2 c
+		c h h a
+		g g g f
+		f e e d %40
+		c1 e
+		f2 f d d
+		e e c1
+		d g2 h
+		c e, f f %45
+		d1 e
+		fis g
+		d\breve
+		g,
+		c'2 c c a %50
+		d2. c4 h1~
+		h2 h c4 g c2
+		g g e e
+		f f d d
+		e e c c %55
+		d1 g,
+		r2 g'1 g2
+		e1 e
+		r2 c c c
+		f1 a %60
+		d2 d, d d
+		g1 g
+		e'2 e, e e
+		a1 a
+		f2 f f f %65
+		g g g g
+		e e e e
+		f1 f
+		r2 h1 h2
+		h h h h %70
+		e g,1 g2
+		g g g g
+		c c,1 c2
+		a a a a
+		g'1 g %75
+		g\breve
+		e
+		f
+		e
+		e %80
+		d
+		c
+		g'
+		c,\fermata \bar "|." %84 finis
 	}
 }
 
 InTeDomineBassFigures = \figuremode {
-	
+	r\breve
+	<6>
+	<6>
+	<6 3>
+	<6> %5
+	<6>
+	<5>
+	<6>
+	<5>
+	<5> %10
+	r
+	r2 <6>1.
+	r2 <5>1.
+	<5>2 <6> <6>1
+	r <7>2 <6+> %15
+	<5 3> <6 4> <5 [4]> <\l 3>
+	r1 <5>
+	r\breve
+	r
+	r %20
+	<7>2 <6> <6>1
+	<6>2 <[4-]>4 <[3]> r1
+	r\breve
+	<6>
+	<3>1 <2>2 <3> %25
+	r1 <5>
+	r\breve
+	<4>1 <3>
+	<5> <6>
+	<6> <5>2 <8> %30
+	<6>1 <7>2 <6>
+	<5> <6>1.
+	<6>1 <7>2 <6>
+	<5> <6> <6> <3>
+	<_+>1 <2>2 <[4\+]> %35
+	<6>\breve
+	<6>2 <2> <3> <4+>
+	<5> <6> <3> q
+	<4> <2> <3>1
+	<4 2>2 <6> <4 3> <5 3>4 <6> %40
+	<4>2 <3> <6> <5->
+	<5>1 <6->
+	r <6>
+	r\breve
+	r %45
+	<5>2 <6> <5> <6>
+	<5> <6> <9> <8>
+	<4>1 <_+>
+	r\breve
+	r1. <5>2 %50
+	<3>1 <5>2 <3>
+	<6>2. <4>4 r1
+	<4>2 <3> <6>1
+	q q
+	<5> <6> %55
+	<_+>\breve
+	r
+	r
+	r
+	r %60
+	<3>
+	r
+	r
+	r
+	<6> %65
+	r
+	<6>
+	<5>
+	r2 <5>1.
+	<8>\breve %70
+	r
+	<3>
+	r
+	r
+	r
+	r
+	r
+	r
+	<6>
+	q
+	<7>1 <6>
+	<4> <3>
+	<4> <3>
+	r\breve
 }
 
 % Organo = {
