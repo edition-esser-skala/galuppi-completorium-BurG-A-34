@@ -262,18 +262,18 @@ InTeDomineOrgano = {
 		\clef bass
 		\key g \mixolydian \time 4/2 \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
-		g'1 g
-		c c
+		\clef treble g''1 g
+		\clef "treble_8" c, c
 		c2 c c c
 		d d1 d4 c
 		h2 h h h %5
-		e, e e e
+		\clef bass e, e e e
 		f1 f
 		d d
 		e\breve
-		a %10
-		d1 d
-		\clef treble r2-\critnote d g4 f e d
+		\clef "treble_8" a %10
+		\clef treble f'1-\critnote f
+		r2 d g4 f e d
 		e2 \clef bass a, a a
 		f1 f
 		g a %15
@@ -298,33 +298,33 @@ InTeDomineOrgano = {
 		f e e g
 		a1. g2 %35
 		f1 f2 e
-		f1 d'2 c
+		f1 \clef "treble_8" d'2 c
 		c h h a
-		g g g f
+		g \clef bass g g f
 		f e e d %40
 		c1 e
 		f2 f d d
 		e e c1
-		d g2 h!
-		c e, f f %45
+		d \clef "treble_8" g2 h!
+		c \clef bass e, f f %45
 		d1 e
 		fis g
 		d\breve
 		g,
-		c'2 c c a %50
+		\clef "treble_8" c'2 c c a %50
 		d2. c4 h1~
 		h2 h c4 g c2
-		g g e e
+		\clef bass g g e e
 		f f d d
 		e e c c %55
 		d1 g,
 		r2 g'1 g2
 		e1 e
 		r2 c c c
-		f1 a %60
-		d2 d, d d
+		f1 \clef "treble_8" a %60
+		d2 \clef bass d, d d
 		g1 g
-		e'2 e, e e
+		\clef "treble_8" e'2 \clef bass e, e e
 		a1 a
 		f2 f f f %65
 		g g g g
@@ -360,8 +360,8 @@ InTeDomineBassFigures = \figuremode {
 	<6>
 	<5>
 	<5> %10
-	r
-	r2 <6>1.
+	<[1]>2 <[3]> <[6]>4 <[5]> <[4]> <[3]>
+	r2 <[8]>1.
 	r2 <5>1.
 	<5>2 <6> <6>1
 	r <7>2 <6+> %15

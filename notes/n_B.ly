@@ -362,12 +362,12 @@ InTeDomineBassoLyrics = \lyricmode {
 	
 	et in %73
 	sae -- cu -- la sae -- cu --
-	lo -- rum,
+	lo -- rum, %75
 	a --
 	_
 	_
 	men,
-	a --
+	a -- %80
 	_
 	_
 	_
