@@ -247,12 +247,165 @@ InTeDomineAltoNotes = {
 		\clef treble
 		\key g \mixolydian \time 4/2 \autoBeamOff \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
-		
+		g'1 g
+		g2 g g g
+		a a1 a4 g
+		f2 f f f
+		g1 g %5
+		g2 g g g4 g
+		a1 a
+		f2. f4 f1
+		g2 g g g4 g
+		e2 e1 e2 %10
+		f1 f
+		r2 d g4 f e d
+		e2. e4 e1
+		r2 f f f4 f
+		d2 g1( fis2) %15
+		g2. g4 g1
+		g r
+		R\breve*2
+		r2 g1 g2 %20
+		g f4 e f2 f
+		e f d4 c d e
+		f1 f
+		d2 d4 c b c d e
+		f c f1 e2 %25
+		f1 f2. f4
+		f2 f4 f f2 f
+		e1 e
+		d1. d2
+		e e4 e f2 f~ %30
+		f g e1
+		R\breve*5 %36
+		r2 d e2. fis4
+		g2 g g4. g8 a2
+		d,\breve
+		r2 g g f %40
+		f e e( d)
+		c1 r
+		r e2. e4
+		f2 f d d
+		e e c1 %45
+		d2 f g1
+		d\breve
+		d
+		d1 r2 d
+		e e e1 %50
+		f2 f f d
+		g2. f4 e1
+		d2 d e e
+		c c4 c d4. d8 d2
+		h h c c %55
+		a1 h
+		r r2 g'~
+		g4 g g2 e1
+		e1 r2 c
+		c c f1 %60
+		R\breve
+		r2 d4 d d2 d4 d
+		g1 g
+		e2 e e e
+		f f f f %65
+		d d d d
+		e1 e
+		c c
+		r2 d1 d2
+		d d4 d d2 d %70
+		g1 g
+		g\breve
+		\once \tieDashed g~
+		g
+		R\breve*2 %76
+		r2 c,1 c2
+		c c4 c c2 c
+		g'1 g
+		e1. e2 %80
+		f1. f2~
+		f e4 d e2. d8[ c]
+		d1. e4 f
+		e\breve\fermata \bar "|." %84 finis
 	}
 }
 
 InTeDomineAltoLyrics = \lyricmode {
+	In te,
+	Do -- mi -- ne, spe --
+	ra -- vi; non con --
+	fun -- dar in ae --
+	ter -- num: %5
+	In iu -- sti -- ti -- a
+	tu -- a
+	li -- be -- ra
+	me. In -- cli -- na ad
+	me au -- rem %10
+	tu -- am;
+	ac -- ce -- _ _ _
+	_ le -- ra
+	ut e -- ru -- as
+	me, ut __ %15
+	e -- ru -- as
+	me.
 	
+	Et in %20
+	do -- mum re -- fu -- gi --
+	i, ut sal -- _ _ _
+	_ vum
+	me fa -- _ _ _ _ _
+	_ _ _ ci -- %25
+	as: Quo -- ni --
+	am for -- ti -- tu -- do
+	me -- a
+	et re --
+	fu -- gi -- um me -- um __ %30
+	es tu.
+	
+	E -- du -- ces %37
+	me de la -- que -- o
+	hoc
+	quem ab -- scon -- %40
+	de -- runt mi --
+	hi,
+	quo -- ni --
+	am tu es pro --
+	te -- ctor me -- %45
+	us, pro -- te --
+	ctor
+	me --
+	us. In
+	ma -- nus tu -- %50
+	as com -- men -- do
+	spi -- ri -- tum
+	me -- um; re -- de --
+	mi -- sti me, Do -- mi -- ne
+	De -- us ve -- ri -- %55
+	ta -- tis.
+	Glo --
+	ri -- a Pa --
+	tri, et
+	Fi -- li -- o, %60
+	
+	et Spi -- ri -- tu -- i
+	San -- cto.
+	Si -- cut e -- rat
+	in prin -- ci -- pi -- %65
+	o et nunc et
+	sem -- per,
+	sem -- per,
+	et in
+	sae -- cu -- la sae -- cu -- %70
+	lo -- rum,
+	a --
+	men, __
+	
+	et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a -- men,
+	a -- men, __
+	a -- _ _ _
+	_ _ _
+	men. %84 finis
 }
 
 % AltoNotes = {
