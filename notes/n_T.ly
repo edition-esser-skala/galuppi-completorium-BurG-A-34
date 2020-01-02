@@ -246,12 +246,161 @@ InTeDomineTenoreNotes = {
 		\clef "treble_8"
 		\key g \mixolydian \time 4/2 \autoBeamOff \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve
+		c1 c
+		c2 c c c
+		d d1 d4 c
+		h2 h h h %5
+		c1 c
+		a2 a a a4 a
+		h1 h
+		g2. g4 g1
+		a\breve %10
+		R\breve*3
+		r2 d d d4 d
+		h1 c %15
+		d2 e d1
+		e2 c1 a2
+		d1 d2 d
+		h h4( c) d2 h
+		e1 e %20
+		R\breve*5 %25
+		r1 d2. d4
+		d2 d4 d d2 d
+		d( c4 h) c1
+		R\breve
+		r1 r2 d %30
+		d g, c c
+		c h4 h h2 d
+		e1. d4 d
+		c2. c4 c2( h)
+		c1 r %35
+		R\breve
+		r2 d d c
+		c h h( a)
+		g1 r2 a
+		h c d d^\critnote %40
+		g,( c1) b2
+		a2. a4 b2 b
+		g g a a
+		f1 g2 h!
+		c c a a %45
+		f4( d) d'1 c2~
+		c h4 a h1
+		a1 r2 a
+		h h h1
+		c2 c c a %50
+		d2. c4 h1~
+		h2 h c4 g c2~
+		c h c1
+		R\breve*2 %55
+		r2 d2. d4 d2
+		h1 h
+		r2 g g g
+		c1 r
+		r2 a4 a a2 a4 a %60
+		d1 d
+		r2 h4 h h2 h4 h
+		e1 e
+		c2 c c c
+		d d d d %65
+		h h h h
+		c1 c
+		a a
+		R\breve*2 %70
+		r2 g1 g2
+		g g4 g g2 g
+		c1 c
+		e\breve
+		d2 h1 h2 %75
+		h h4 h h2 h
+		e1 e
+		R\breve
+		r2 g,1 g2
+		g g4 g g2 g %80
+		d'1 d
+		g,1. c2~
+		c h4 a h1
+		c\breve\fermata \bar "|." %84 finis
 	}
 }
 
 InTeDomineTenoreLyrics = \lyricmode {
+	In te, %2
+	Do -- mi -- ne, spe --
+	ra -- vi; non con --
+	fun -- dar in ae -- %5
+	ter -- num:
+	In iu -- sti -- ti -- a
+	tu -- a
+	li -- be -- ra
+	me. %10
 	
+	Ut e -- ru -- as %14
+	me, ut %15
+	e -- ru -- as
+	me. E -- sto
+	mi -- hi in
+	De -- um pro -- te --
+	cto -- rem. %20
+	
+	Quo -- ni -- %26
+	am for -- ti -- tu -- do
+	me -- a.
+	
+	Et %30
+	pro -- pter no -- men
+	tu -- um de -- du -- ces
+	me et e --
+	nu -- tri -- es __
+	me. %35
+	
+	Quem ab -- scon -- %37
+	de -- runt mi --
+	hi, quem
+	ab -- scon -- de -- runt %40
+	mi -- hi,
+	quo -- ni -- am tu
+	es pro -- te -- ctor
+	me -- us, pro --
+	te -- ctor me -- us, %45
+	pro -- te -- ctor __
+	_ _ me --
+	us. In
+	ma -- nus tu --
+	as com -- men -- do %50
+	spi -- ri -- tum __
+	me -- _ _ _
+	_ um.
+	
+	Glo -- ri -- a %56
+	Pa -- tri,
+	et Fi -- li --
+	o,
+	et Spi -- ri -- tu -- i %60
+	San -- cto,
+	et Spi -- ri -- tu -- i
+	San -- cto.
+	Si -- cut e -- rat
+	in prin -- ci -- pi -- %65
+	o et nunc et
+	sem -- per,
+	sem -- per,
+	
+	et in %71
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a --
+	men, et in %75
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	
+	et in
+	sae -- cu -- la sae -- cu -- %80
+	lo -- rum,
+	a -- _
+	_ _ _
+	men. %84 finis
 }
 
 % TenoreNotes = {

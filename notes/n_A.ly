@@ -314,8 +314,8 @@ InTeDomineAltoNotes = {
 		d d4 d d2 d %70
 		g1 g
 		g\breve
-		\once \tieDashed g~
 		g
+		R\breve^\critnote
 		R\breve*2 %76
 		r2 c,1 c2
 		c c4 c c2 c
@@ -396,12 +396,12 @@ InTeDomineAltoLyrics = \lyricmode {
 	sae -- cu -- la sae -- cu -- %70
 	lo -- rum,
 	a --
-	men, __
+	men,
 	
-	et in
+	et in %77
 	sae -- cu -- la sae -- cu --
 	lo -- rum,
-	a -- men,
+	a -- men, %80
 	a -- men, __
 	a -- _ _ _
 	_ _ _
