@@ -228,6 +228,19 @@ CumInvocaremBassoLyrics = \lyricmode {
 	men. %121 finis
 }
 
+InTeDomineBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \mixolydian \time 4/2 \autoBeamOff \tempoInTeDomine
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+InTeDomineBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

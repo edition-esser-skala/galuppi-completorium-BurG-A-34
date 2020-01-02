@@ -14,50 +14,93 @@
 #(set-global-staff-size 15.87)
 
 \book {
+% 	\bookpart {
+% 		\header {
+% 			movement = "1 CUM INVOCAREM"
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \SopranoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \CumInvocaremSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \CumInvocaremSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Alto" { \dynamicUp \CumInvocaremAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \CumInvocaremAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \TenoreIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Tenore" { \dynamicUp \CumInvocaremTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \CumInvocaremTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \CumInvocaremBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \CumInvocaremBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\CumInvocaremOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \CumInvocaremBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 1 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1 CUM INVOCAREM"
+			movement = "2 IN TE DOMINE"
 		}
 		\score {
 			<<
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \CumInvocaremSopranoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \InTeDomineSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \CumInvocaremSopranoLyrics
+					\new Lyrics \lyricsto Soprano \InTeDomineSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \CumInvocaremAltoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \InTeDomineAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \CumInvocaremAltoLyrics
+					\new Lyrics \lyricsto Alto \InTeDomineAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \CumInvocaremTenoreNotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \InTeDomineTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \CumInvocaremTenoreLyrics
+					\new Lyrics \lyricsto Tenore \InTeDomineTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \CumInvocaremBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \InTeDomineBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \CumInvocaremBassoLyrics
+					\new Lyrics \lyricsto Basso \InTeDomineBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\CumInvocaremOrgano
+						\InTeDomineOrgano
 					}
 				>>
-				\new FiguredBass { \CumInvocaremBassFigures }
+				\new FiguredBass { \InTeDomineBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 1 = 60 }

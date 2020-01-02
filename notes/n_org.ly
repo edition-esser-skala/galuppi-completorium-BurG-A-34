@@ -257,6 +257,19 @@ CumInvocaremBassFigures = \figuremode {
 	r\breve %121 finis
 }
 
+InTeDomineOrgano = {
+	\relative c {
+		\clef bass
+		\key g \mixolydian \time 4/2 \tempoInTeDomine
+			\set Staff.timeSignatureFraction = 2/2
+		g'1 g
+	}
+}
+
+InTeDomineBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

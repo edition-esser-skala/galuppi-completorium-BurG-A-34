@@ -244,6 +244,19 @@ CumInvocaremSopranoLyrics = \lyricmode {
 	men. %121 finis
 }
 
+InTeDomineSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \mixolydian \time 4/2 \autoBeamOff \tempoInTeDomine
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+InTeDomineSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -242,6 +242,19 @@ CumInvocaremAltoLyrics = \lyricmode {
 	men. %121 finis
 }
 
+InTeDomineAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \mixolydian \time 4/2 \autoBeamOff \tempoInTeDomine
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+InTeDomineAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

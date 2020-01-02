@@ -241,6 +241,19 @@ CumInvocaremTenoreLyrics = \lyricmode {
 	men. %121 finis
 }
 
+InTeDomineTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \mixolydian \time 4/2 \autoBeamOff \tempoInTeDomine
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+InTeDomineTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
