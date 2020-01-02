@@ -296,7 +296,7 @@ InTeDomineOrgano = {
 		c h h \clef bass g
 		g c, f f
 		f e e g
-		a1 a2 g %35
+		a1. g2 %35
 		f1 f2 e
 		f1 d'2 c
 		c h h a
@@ -335,7 +335,7 @@ InTeDomineOrgano = {
 		g \clef "treble_8" g,1 g2
 		g g g g
 		c \clef bass c,1 c2
-		a a a a
+		c-\critnote c c c
 		g'1 g %75
 		g\breve
 		e

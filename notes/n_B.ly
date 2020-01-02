@@ -233,12 +233,145 @@ InTeDomineBassoNotes = {
 		\clef bass
 		\key g \mixolydian \time 4/2 \autoBeamOff \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*5 %5
+		e2 e e e4 e
+		f1 f
+		d2. d4 d1
+		e\breve
+		R\breve*3 %12
+		r2 a a a4 a
+		f1 f
+		g a %15
+		g2. g4 g1
+		c, f~
+		f2 d g1
+		g1. g2
+		e e4( f) g2 e %20
+		a1 a
+		R\breve*4 %25
+		r1 d,2. d4
+		d2 d4 e f2 d
+		a'1 a
+		R\breve*3 %31
+		r1 r2 g
+		g c, f f
+		f e4 e e2 g
+		a1. g4 g %35
+		f2. f4 f2( e)
+		f1 r
+		R\breve
+		r2 g g f
+		f e e( d) %40
+		c1 e2. e4
+		f2 f d d
+		e e c1
+		d r
+		r2 e f f %45
+		d1 e
+		fis g
+		d\breve
+		g,
+		R\breve*3 %52
+		g'2 g e e4 e
+		f4. f8 f2 d d
+		e e c c %55
+		d1 g,
+		r2 g'2. g4 g2
+		e1 e
+		r2 c c c
+		f1 r %60
+		r2 d4 d d2 d4 d
+		g1 g
+		r2 e4 e e2 e4 e
+		a1 a
+		f2 f f f %65
+		g g g g
+		e e e e
+		f1 f
+		R\breve*4 %72
+		r2 c1 c2
+		c c4 c c2 c
+		g'1 g %75
+		g\breve
+		e
+		f
+		e
+		e %80
+		d
+		c
+		g'
+		c,\fermata \bar "|." %84 finis
 	}
 }
 
 InTeDomineBassoLyrics = \lyricmode {
+	In iu -- sti -- ti -- a %6
+	tu -- a
+	li -- be -- ra
+	me.
 	
+	Ut e -- ru -- as %13
+	me, ut
+	e -- _ %15
+	_ ru -- as
+	me. E --
+	sto mi --
+	hi in
+	De -- um pro -- te -- %20
+	cto -- rem.
+	
+	Quo -- ni -- %26
+	am for -- ti -- tu -- do
+	me -- a.
+	
+	Et %32
+	pro -- pter no -- men
+	tu -- um de -- du -- ces
+	me et e -- %35
+	nu -- tri -- es __
+	me.
+	
+	Quem ab -- scon -- %39
+	de -- runt mi -- %40
+	hi, quo -- ni --
+	am tu es pro --
+	te -- ctor me --
+	us,
+	pro -- te -- ctor %45
+	me -- _
+	_ _
+	_
+	us.
+	
+	Re -- de -- mi -- sti me, %53
+	Do -- mi -- ne De -- us,
+	De -- us ve -- ri -- %55
+	ta -- tis.
+	Glo -- ri -- a
+	Pa -- tri,
+	et Fi -- li --
+	o, %60
+	et Spi -- ri -- tu -- i
+	San -- cto,
+	et Spi -- ri -- tu -- i
+	San -- cto.
+	Si -- cut e -- rat %65
+	in prin -- ci -- pi --
+	o et nunc et
+	sem -- per,
+	
+	et in %73
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a --
+	_
+	_
+	men,
+	a --
+	_
+	_
+	_
+	men. %84 finis
 }
 
 % BassoNotes = {
