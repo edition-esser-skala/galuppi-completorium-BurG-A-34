@@ -442,11 +442,311 @@ QuiHabitatOrgano = {
 		\key f \major \time 4/2 \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
 		r2 c' c f,
+		f f f f~
+		f f f4 f e d
+		d2 e f1
+		d2 d e e %5
+		f f d1
+		e f2 f
+		c c f f
+		e4 e e fis g2 g
+		e1 a2 a %10
+		b b g g
+		a a f f
+		g g g g
+		e e f1
+		b g %15
+		a f
+		f b
+		es c
+		d b
+		b r2 f~ %20
+		f f d d~
+		d c4 b c1
+		b2 b b b
+		f' f1 f2
+		d1 d %25
+		d'2 cis4 h cis1
+		d2 d, d d
+		d d1 f2
+		g a d,1
+		r2 d d d %30
+		g g1 g2
+		e1. e2
+		c c r4 c c c
+		c2 c f f
+		f1 f2 f %35
+		e e f1
+		d\breve
+		c~
+		c1 f,
+		r2 c' f1 %40
+		d r2 g
+		e e c c
+		f1 d2 d
+		e e r f
+		d d g g %45
+		e e c c
+		f1 d
+		g\breve
+		c,1 c
+		c f %50
+		d a'
+		a r2 f
+		f f d1~
+		d2 d a' a
+		a gis a1~ %55
+		a f2 f
+		f e r g
+		g g f e
+		e d1 c2
+		d e f d %60
+		e fis g g
+		g g g g
+		e c1 e2
+		f f f4 f f e
+		d2 d d1 %65
+		d2 d e1
+		e\breve
+		f1 a~
+		a b
+		a2 f1 f2 %70
+		f e d1
+		f2 f1 f2
+		f e d1
+		f f
+		f d %75
+		c\breve
+		f,2 f' f f
+		f1 r2 g
+		a h c1
+		r2 a f f %80
+		d1 r2 g
+		e e c c
+		d1 c
+		r4 g' g g g2 f
+		r a1 f2 %85
+		g\breve
+		f1 c
+		f2 f d d
+		b1 c
+		c\breve %90
+		c
+		f1 d
+		d d2 f
+		g1 c,2 e~
+		e e f f %95
+		d1 d
+		d2 g1 g2
+		e1 e2 e
+		f1 f
+		f1. d2 %100
+		a'1 e
+		a, r2 f'
+		f1. e4 d
+		g1 e
+		f d %105
+		d f
+		r2 f f f
+		e1 es
+		d2 g1 f4 e
+		g d f2 c' c, %110
+		f f d1
+		d\breve
+		c1 c
+		f g
+		d\breve %115
+		g,1 es'~
+		es2 es es es
+		f1 r2 d
+		g4 f es d c2 f
+		g b b a %120
+		b2. b4 b2 a~
+		a g1 f2
+		e d e1
+		d\breve
+		r2 b'!1 b2 %125
+		c1 c
+		r2 c1 c2
+		d1 d
+		r2 d1 d2
+		c1 f, %130
+		b c
+		f,2 f1 f2
+		e1 d2 g~
+		g f g a
+		b g f1 %135
+		e2 f1 e2
+		f1 f
+		d c
+		r2 f d g
+		r e c f %140
+		c' c f, f
+		f f d d
+		c1 r2 f
+		d g r e
+		c f f f %145
+		f f d d
+		b1 c
+		f2 f d g
+		e1 f
+		c\breve %150
+		f,\fermata \bar "|." %151 finis
 	}
 }
 
 QuiHabitatBassFigures = \figuremode {
-	
+	r\breve
+	r
+	r1 <4->
+	<6>2 <5> r1
+	r\breve %5
+	r1 <6>
+	<5>\breve
+	<4>2 <3> r1
+	r\breve
+	r1 <6> %10
+	<3> <_!>
+	<5> <8>2 <7 5>
+	<4>1 <_!>
+	<6>\breve
+	r %15
+	r
+	r
+	<5>1 <_->
+	<5>\breve
+	r %20
+	r1 <7>2 <6>
+	r1 <7>2 <6>
+	r\breve
+	r
+	r %25
+	<3>
+	r
+	r
+	<5>4 <6> <_+>2 r1
+	r\breve %30
+	<5 _!>
+	r
+	r
+	r
+	r %35
+	r
+	<5>1 <6!>
+	<5 3> <6 4>
+	<5 4>2 <\l 3> r1
+	r\breve %40
+	r1. <_!>2
+	r\breve
+	r
+	<6>1. <5>2
+	r1 <_!> %45
+	<5>\breve
+	r
+	<7 3>2 <6 4> <5 [4]> <\t 3>
+	r\breve
+	r %50
+	r1 <4>2 <3>
+	r\breve
+	r
+	r
+	<5 2>1 <3> %55
+	r\breve
+	r
+	r
+	r
+	r %60
+	r
+	<6 3>2 <6 4> <5 4> <\l _!>
+	r\breve
+	r
+	r2 <5> <6>1 %65
+	<6> <3>
+	<3> <6>
+	<5>\breve
+	<6>1 <5>
+	r\breve %70
+	r2 <6> <7> <6>
+	r\breve
+	r
+	r
+	r1 <5>2 <6!> %75
+	<4>1 <3>
+	r\breve
+	r1. <6>2
+	<6> <5!> r1
+	r\breve %80
+	r
+	<3>
+	<7>2 <6> r1
+	<4>4 <\t> <_!>2 <5> <6>
+	r\breve %85
+	<7>1 <6>
+	r <4>2 <3>
+	r\breve
+	r1 <6>
+	<3>\breve %90
+	<6 5>2 <6 4> <5 3>1
+	r <3>
+	r\breve
+	<6 4>2 <5 _!> r1
+	r\breve %95
+	r
+	r2 <_!>1.
+	<5>1 <6>
+	<5>\breve
+	<6> %100
+	<6 4>2 <5 3> <4> <_+>
+	r1. <5>2
+	<5>1 <6>
+	<_!> <6>
+	<3>\breve %105
+	r1 <5>
+	r\breve
+	<6>1 <6>
+	<6!>2 <_!> <_->1
+	r1 <4>2 <3> %110
+	r\breve
+	<6->
+	<7>
+	r1 <9 4>2 <8 3>
+	<[5] _+>2 <[6 4]> <[5] 4> <[\t _+]> %115
+	r\breve
+	<5>1 <6>
+	r\breve
+	r
+	r1 <2>2 <5-> %120
+	<4> <3> <5 2>1
+	<6>2 <6>1 <6>2
+	<6\\>\breve
+	<_!>
+	r2 <6>1. %125
+	<5>\breve
+	r2 <6>1.
+	<5>\breve
+	r2 <6>1.
+	<7>\breve %130
+	<5>2 <6> <3>1
+	r\breve
+	<6>1 <6>2 <3>
+	<2> <6> <5> <3>
+	<7> <6> <8> <6> %135
+	<6>2 <[4]>4 <3> <2>2 <6>
+	r\breve
+	r
+	r2 <6>1.
+	r2 <6>1. %140
+	<4>2 <3> r1
+	r\breve
+	r1. <6>2
+	r <3> r1
+	r\breve %145
+	r
+	<5>2 <6> <5>1
+	<5>2 <6> r1
+	r\breve
+	<4>1 <3> %150
+	r\breve %151 finis
 }
 
 % Organo = {
