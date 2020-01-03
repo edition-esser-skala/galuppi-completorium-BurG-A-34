@@ -379,36 +379,261 @@ QuiHabitatBassoNotes = {
 		\clef bass
 		\key f \major \time 4/2 \autoBeamOff \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r1 r2 f
+		f2. f4 f2 f~
+		f f4 f f f e d
+		e2. e4 f1
+		R\breve*3 %7
+		c2 c f2. f4
+		e e e fis g2 g4 g
+		e1 r %10
+		r g2 g4 g
+		a2 a f4 f f f
+		g2 g g4. g8 g4 g
+		e4. e8 e2 f1
+		b g %15
+		a f2. f4
+		f1 r
+		R\breve*5 %22
+		b,2 b4 b b4. b8 b2
+		f' f2. f4 f2
+		d1 d %25
+		R\breve
+		r2 d4 d d d d d
+		d2 d1 f2
+		g( a) d,1
+		R\breve*4 %33
+		r1 f2 f
+		f1 f2 f4 f %35
+		e4. e8 e2 f1
+		d d
+		c\breve~
+		c1 f,
+		r f' %40
+		d1 r2 g
+		e4. e8 e2 c c
+		f f r1
+		R\breve
+		r1 g2 g %45
+		e e c c
+		f1 d
+		g\breve
+		c,2 c c4. c8 c2
+		c c4 c f2 f4 f %50
+		d2 d a'1
+		a r2 f
+		f4 f f f^\critnote d2 d~
+		d d4 d a'2 a4 a
+		a2( gis) a1~ %55
+		a r
+		R\breve*4 %60
+		r1 r2 g4 g
+		g2 g g g
+		e c1 e4 e
+		f2 f f4 f f e
+		d2 d d d %65
+		d2. d4 e1
+		e\breve
+		f1 r
+		R\breve*3 %71
+		r2 f1 f2
+		f e4 e d2 d
+		f2. f4 f1
+		f d %75
+		c\breve
+		f,2 f' f f
+		f1 r2 g
+		a h c1
+		r2 a f f4 f %80
+		d2 d r g
+		e4. e8 e2 c c
+		d1 c
+		R\breve
+		r2 a'1 f2 %85
+		g\breve
+		f1 c
+		f2 f4 f d2 d4 d
+		b2 b b1
+		c\breve %90
+		c
+		f1 d2. d4
+		d2 d d f
+		g1 c,2 e~
+		e4 e e e f2^\critnote f %95
+		r1 d2. d4
+		d2 g1 g2
+		e2. e4 e2 e
+		f1 f
+		f1. d2 %100
+		a'1 e
+		a, r2 f'
+		f1. e4 d
+		g2 g e e4 e
+		f4. f8 f2 d1 %105
+		d r
+		R\breve*3
+		r1 r2 c %110
+		f4. f8 f2 d1
+		d\breve
+		r2 c2. c4 c c
+		f2 f g1
+		d\breve %115
+		g,1 r
+		R\breve*2
+		r1 r2 f'4 f
+		g2 b b a %120
+		b2. b4 b2 a~
+		a g1 f2
+		e d e1
+		d\breve
+		R\breve*7 %131
+		r2 f1 f2
+		e1^\critnote d2 g~
+		g f g a
+		b g f1 %135
+		e2 f1( e2)
+		f1 r
+		R\breve*3 %140
+		r1 f2 f
+		f f4 f d2 d
+		c c r f(
+		d) g r e(
+		c) f f f %145
+		f f4 f d2 d
+		b b c1
+		f2 f( d) g
+		e1 f
+		c\breve %150
+		f,\fermata \bar "|." %151 finis
 	}
 }
 
 QuiHabitatBassoLyrics = \lyricmode {
-% 	Qui
-% 	ha -- bi -- tat in __
-% 	ad -- iu -- to -- ri -- o Al --
-% 	tis -- si -- mi, in pro --
-% 	te -- cti -- o -- ne
-% 	De -- i coe -- li __
-% 	com -- mo -- ra --
-% 	bi -- tur.
-% 	Di -- cet Do -- mi -- no: Su -- scep -- tor me -- us es tu et re -- fu -- gi -- um me -- um: De -- us me -- us spe -- ra -- bo in e -- um.
-% 	Quo -- ni -- am ip -- se li -- be -- ra -- vit me de la -- que -- o ve -- nan -- ti -- um, et a ver -- bo a -- spe -- ro.
-% 	In sca -- pu -- lis su -- is ob -- um -- bra -- bit ti -- bi: et sub pen -- nis e -- ius spe -- ra -- bis.
-% 	Scu -- to cir -- cum -- da -- bit te ve -- ri -- tas e -- ius: non ti -- me -- bis a ti -- mo -- re no -- ctur -- no.
-% 	A sa -- git -- ta vo -- lan -- te in di -- e, a ne -- go -- ti -- o per -- am -- bu -- lan -- te in te -- ne -- bris: ab in -- cur -- su et dae -- mo -- ni -- o me -- ri -- di -- a -- no.
-% 	Ca -- dent a la -- te -- re tu -- o mil -- le, et de -- cem mil -- li -- a a dex -- tris tu -- is: ad te au -- tem non ap -- pro -- pin -- qua -- bit.
-% 	Ve -- rum -- ta -- men o -- cu -- lis tu -- is con -- si -- de -- ra -- bis: et re -- tri -- bu -- ti -- o -- nem pec -- ca -- to -- rum vi -- de -- bis.
-% 	Quo -- ni -- am tu es Do -- mi -- ne spes me -- a: Al -- tis -- si -- mum po -- su -- i -- sti re -- fu -- gi -- um tu -- um.
-% 	Non ac -- ce -- dent ad te ma -- lum: et fla -- gel -- lum non ap -- pro -- pin -- qua -- bit ta -- ber -- na -- cu -- lo tu -- o.
-% 	Quo -- ni -- am an -- ge -- lis su -- is man -- da -- vit de te: ut cu -- sto -- di -- ant te in om -- ni -- bus vi -- is tu -- is.
-% 	In ma -- ni -- bus por -- ta -- bunt te: ne for -- te of -- fen -- das ad la -- pi -- dem pe -- dem tu -- um.
-% 	Su -- per a -- spi -- dem et ba -- si -- li -- scum am -- bu -- la -- bis: et con -- cul -- ca -- bis le -- o -- nem et dra -- co -- nem.
-% 	Quo -- ni -- am in me spe -- ra -- vit, li -- be -- ra -- bo e -- um: pro -- te -- gam e -- um, quo -- ni -- am co -- gno -- vit no -- men me -- um.
-% 	Cla -- ma -- bit ad me, et e -- go ex -- au -- di -- am e -- um: cum ip -- so sum in tri -- bu -- la -- ti -- o -- ne: e -- ri -- pi -- am e -- um et glo -- ri -- fi -- ca -- bo e -- um.
-% 	Lon -- gi -- tu -- di -- ne di -- e -- rum re -- ple -- bo e -- um: et o -- sten -- dam il -- li sa -- lu -- ta -- re me -- um.
-% 	Glo -- ri -- a Pa -- tri, et Fi -- li -- o, et Spi -- ri -- tu -- i San -- cto.
-% 	Si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+	Qui
+	ha -- bi -- tat in __
+	ad -- iu -- to -- ri -- o Al --
+	tis -- si -- mi.
+	
+	Di -- cet Do -- mi -- %8
+	no: Su -- scep -- tor me -- us es
+	tu. %10
+	Quo -- ni -- am
+	ip -- se li -- be -- ra -- vit
+	me de la -- que -- o ve --
+	nan -- ti -- um, et
+	a ver -- %15
+	bo a -- spe --
+	ro.
+	
+	Scu -- to cir -- cum -- da -- bit %23
+	te ve -- ri -- tas
+	e -- ius: %25
+	
+	non ti -- me -- bis a ti --
+	mo -- re no --
+	ctur -- no.
+	
+	Ab in -- %34
+	cur -- su et dae -- %35
+	mo -- ni -- o me --
+	ri -- di --
+	a --
+	no.
+	Ca -- %40
+	dent a
+	la -- te -- re tu -- o
+	mil -- le:
+	
+	ad te %45
+	au -- tem non ap --
+	pro -- pin --
+	qua --
+	bit. Ve -- rum -- ta -- men
+	o -- cu -- lis tu -- is con -- %50
+	si -- de -- ra --
+	bis: et
+	re -- tri -- bu -- ti -- o -- nem __
+	pec -- ca -- to -- rum vi --
+	de -- bis. __ %55
+	
+	Non ac -- %61
+	ce -- dent ad te
+	ma -- lum: et fla --
+	gel -- lum non ap -- pro -- pin --
+	qua -- bit ta -- ber -- %65
+	na -- cu -- lo
+	tu --
+	o.
+	
+	Ut cu -- %72
+	sto -- di -- ant te in
+	om -- ni -- bus
+	vi -- is %75
+	tu --
+	is. In ma -- ni --
+	bus por --
+	ta -- bunt te:
+	ne for -- te of -- %80
+	fen -- das ad
+	la -- pi -- dem pe -- dem
+	tu -- um.
+	
+	Am -- bu -- %85
+	la --
+	_ bis:
+	et con -- cul -- ca -- bis le --
+	o -- nem et
+	dra -- %90
+	co --
+	nem. Quo -- ni --
+	am in me spe --
+	ra -- vit, li --
+	be -- ra -- bo e -- um: %95
+	pro -- te --
+	gam e -- um,
+	quo -- ni -- am co --
+	gno -- vit
+	no -- men %100
+	me -- _
+	um. Cla --
+	ma -- bit ad
+	me, et e -- go ex --
+	au -- di -- am e -- %105
+	um:
+	
+	e -- %110
+	ri -- pi -- am e --
+	um
+	et glo -- ri -- fi --
+	ca -- bo e --
+	_ %115
+	um.
+	
+	Et o -- %119
+	sten -- dam il -- li %120
+	sa -- lu -- ta -- re __
+	me -- _
+	_ _ _
+	um.
+	
+	Si -- cut %132
+	e -- rat in __
+	prin -- ci -- pi --
+	o et nunc %135
+	et sem --
+	per
+	
+	et in %141
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	men, a --
+	men, et in %145
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	men, a -- men,
+	a -- men,
+	a -- %150
+	men. %151 finis
 }
 
 % BassoNotes = {
