@@ -404,27 +404,275 @@ QuiHabitatSopranoNotes = {
 		\clef treble
 		\key f \major \time 4/2 \autoBeamOff \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r1 r2 a'
+		a2. a4 a2 a~
+		a a4 a a a g f
+		g4. g8 g2 f2. f4
+		f2 f g g %5
+		a a b b~
+		b a4 g a1(
+		g2.) g4 f1
+		R\breve
+		g2 g a4. a8 a2 %10
+		f f g g
+		e e4 e f2 e4 e
+		d1 d
+		R\breve*3 %16
+		r1 d'4. d8 d2
+		b b c4 c c c
+		a2 a r b~
+		b4 b b b a2 a %20
+		c c1 b4 a
+		b f b1 a2
+		b\breve
+		R\breve*2 %25
+		r2 a4 a a a a a
+		a2 a1 a2
+		a1 a2 a
+		b a1 a4 a
+		a2 a4 a d2 d~ %30
+		d d h h
+		r h?4 h g4. g8 g2
+		r4 g g g g2 g4 g
+		e4. e8 e2 a a
+		a1 a2 a4 a %35
+		g4. g8 g2 c, c'
+		d1 d
+		g, a2. g8[ f]
+		g1 a
+		R\breve*2 %41
+		r1 r2 g
+		a a h4. h8 h2
+		r c c c
+		d d r1 %45
+		r c2 c
+		a a a a
+		g g g1
+		g2 g g4. g8 g2
+		g g4 g a2 a4 a %50
+		a2 a a1
+		a\breve
+		R\breve*2
+		r1 a2. a4 %55
+		a2 a4 a a2. a4
+		c2 c c h
+		r d d4. d8 c2
+		c h h a~
+		a g a h %60
+		c a h d~
+		d4 c c1 h2
+		c1 r
+		R\breve*3 %66
+		r1 c2 c4 c
+		c2 c4 c c2 c4 c
+		c2 c4 c d1
+		r c~ %70
+		c2 c c h4 h
+		a2 a c2. c4
+		c1 d
+		c a~
+		a2 c d1 %75
+		a\breve
+		a
+		R\breve*5 %82
+		r1 c2 c
+		c4. c8 h2 r4 d d d
+		d2 c r1 %85
+		r2 b!1 g2
+		a1 g
+		R\breve
+		r1 b2 b4 b
+		g2 g4 g e2 e %90
+		a a g1
+		a2 a2. a4 a2~
+		a a a a
+		g1 g2 g~
+		g4 g g g a2 a %95
+		r a2. a4 a2
+		d d h2. h4
+		h?2 h c1
+		c2 a1 a2
+		a1 a~ %100
+		a2 a1( gis2)
+		a\breve~
+		a
+		R\breve*2 %105
+		r1 r2 c
+		c c c1
+		r2 c c c
+		h1 b
+		a g %110
+		r2 a d4. d8 d2
+		b1 b~
+		b2 b2. b4 b b
+		a2 a1 g2
+		fis g4 a b2 a %115
+		b b1 b2
+		b4 b b b c2 c
+		r a d1
+		b2 b1( a2)
+		b1 r %120
+		R\breve*3
+		r2 f2. f4 f2
+		g1 g %125
+		r2 g2. g4 g2
+		a2. a4 a1
+		r2 a1 a2
+		b2. b4 b1~
+		b2 a4 g a2 g4 f %130
+		g1. a4 b
+		a\breve
+		R\breve*3 %135
+		r1 c2 c
+		c c4 c a2 a
+		f f r c'(
+		a) d r b(
+		g) c1 a2( %140
+		g1) a
+		R\breve*3
+		c2 c c c4 c %145
+		a2 a f f
+		r b( g) c
+		r a f b~
+		b a4 g a2. g8[ f]
+		g1. c4 b %150
+		a\breve\fermata \bar "|." %151 finis
 	}
 }
 
 QuiHabitatSopranoLyrics = \lyricmode {
-% 	Qui habitat in adiutorio Altissimi, in protectione Dei caeli commorabitur.
-% 	Dicet Domino: Susceptor meus es tu et refugium meum: Deus meus sperabo in eum.
-% 	Quoniam ipse liberavit me de laqueo venantium, et a verbo aspero.
-% 	In scapulis suis obumbrabit tibi: et sub pennis eius sperabis.
-% 	Scuto circumdabit te veritas eius: non timebis a timore nocturno.
-% 	A sagitta volante in die, a negotio perambulante in tenebris: ab incursu et daemonio meridiano.
-% 	Cadent a latere tuo mille, et decem millia a dextris tuis: ad te autem non appropinquabit.
-% 	Verumtamen oculis tuis considerabis: et retributionem peccatorum videbis.
-% 	Quoniam tu es Domine spes mea: Altissimum posuisti refugium tuum.
-% 	Non accedent ad te malum: et flagellum non appropinquabit tabernaculo tuo.
-% 	Quoniam angelis suis mandavit de te: ut custodiant te in omnibus viis tuis.
-% 	In manibus portabunt te: ne forte offendas ad lapidem pedem tuum.
-% 	Super aspidem et basiliscum ambulabis: et conculcabis leonem et draconem.
-% 	Quoniam in me speravit, liberabo eum: protegam eum, quoniam cognovit nomen meum.
-% 	Clamabit ad me, et ego exaudiam eum: cum ipso sum in tribulatione: eripiam eum et glorificabo eum.
-% 	Longitudine dierum replebo eum: et ostendam illi salutare meum.
+	Qui
+	ha -- bi -- tat in __
+	ad -- iu -- to -- ri -- o Al --
+	tis -- si -- mi, in pro --
+	te -- cti -- o -- ne %5
+	De -- i coe -- li __
+	com -- mo -- ra --
+	bi -- tur.
+	
+	Et re -- fu -- gi -- um %10
+	me -- um: De -- us
+	me -- us spe -- ra -- bo in
+	e -- um.
+	
+	Sca -- pu -- lis %17
+	su -- is ob -- um -- bra -- bit
+	ti -- bi: et __
+	sub pen -- nis e -- ius %20
+	spe -- ra -- _ _
+	_ _ _ _
+	bis.
+	
+	Non ti -- me -- bis a ti -- %26
+	mo -- re, ti --
+	mo -- re no --
+	ctur -- no. A sa --
+	git -- ta vo -- lan -- te __ %30
+	in di -- e,
+	a ne -- go -- ti -- o
+	per -- am -- bu -- lan -- te in
+	te -- ne -- bris: ab in --
+	cur -- su et dae -- %35
+	mo -- ni -- o me -- ri --
+	di -- a --
+	_ _ _
+	_ no.
+	
+	Et %42
+	de -- cem mil -- li -- a
+	a dex -- tris
+	tu -- is: %45
+	ad te
+	au -- tem non ap --
+	pro -- pin -- qua --
+	bit. Ve -- rum -- ta -- men
+	o -- cu -- lis tu -- is con -- %50
+	si -- de -- ra --
+	bis.
+	
+	Quo -- ni -- %55
+	am tu es Do -- mi --
+	ne spes me -- a:
+	Al -- tis -- si -- mum
+	po -- su -- i -- sti __
+	re -- fu -- gium %60
+	tu -- _ _ _
+	_ _ _
+	um.
+	
+	Quo -- ni -- am %67
+	an -- ge -- lis su -- is man --
+	da -- vit de te:
+	ut __ %70
+	cu -- sto -- di -- ant
+	te in om -- ni --
+	bus vi --
+	is tu --
+	is, tu -- %75
+	_
+	is.
+	
+	Su -- per %83
+	a -- spi -- dem et ba -- si --
+	li -- scum %85
+	am -- bu --
+	la -- bis:
+	
+	et con -- cul --
+	ca -- bis le -- o -- nem %90
+	et dra -- co --
+	nem. Quo -- ni -- am __
+	in me spe --
+	ra -- vit, li --
+	be -- ra -- bo e -- um: %95
+	pro -- te -- gam
+	e -- um, quo -- ni --
+	am co -- gno --
+	vit no -- men,
+	no -- men __ %100
+	me --
+	um. __
+	
+	Cum %106
+	ip -- so sum
+	in tri -- bu --
+	la -- ti --
+	o -- ne: %110
+	e -- ri -- pi -- am
+	e -- um __
+	et glo -- ri -- fi --
+	ca -- bo e --
+	_ _ _ _ _ %115
+	um. Lon -- gi --
+	tu -- di -- ne di -- e -- rum
+	re -- ple --
+	bo e --
+	um. %120
+	
+	Glo -- ri -- a %124
+	Pa -- tri, %125
+	Pa -- tri et
+	Fi -- li -- o,
+	et Spi --
+	ri -- tu -- i __
+	San -- _ _ _ _ %130
+	_ _ _
+	cto.
+	
+	Et in %136
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	men, a --
+	men, a -- %140
+	men,
+	
+	et in sae -- cu -- la %145
+	sae -- cu -- lo -- rum,
+	a -- men,
+	a -- _ _
+	_ _ _ _
+	_ _ _ %150
+	men. %151 finis
 }
 
 % SopranoNotes = {

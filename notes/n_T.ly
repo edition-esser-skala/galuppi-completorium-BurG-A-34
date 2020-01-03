@@ -413,7 +413,31 @@ QuiHabitatTenoreNotes = {
 }
 
 QuiHabitatTenoreLyrics = \lyricmode {
-	
+% 	Qui
+% 	ha -- bi -- tat in __
+% 	ad -- iu -- to -- ri -- o Al --
+% 	tis -- si -- mi, in pro --
+% 	te -- cti -- o -- ne
+% 	De -- i coe -- li __
+% 	com -- mo -- ra --
+% 	bi -- tur.
+% 	Di -- cet Do -- mi -- no: Su -- scep -- tor me -- us es tu et re -- fu -- gi -- um me -- um: De -- us me -- us spe -- ra -- bo in e -- um.
+% 	Quo -- ni -- am ip -- se li -- be -- ra -- vit me de la -- que -- o ve -- nan -- ti -- um, et a ver -- bo a -- spe -- ro.
+% 	In sca -- pu -- lis su -- is ob -- um -- bra -- bit ti -- bi: et sub pen -- nis e -- ius spe -- ra -- bis.
+% 	Scu -- to cir -- cum -- da -- bit te ve -- ri -- tas e -- ius: non ti -- me -- bis a ti -- mo -- re no -- ctur -- no.
+% 	A sa -- git -- ta vo -- lan -- te in di -- e, a ne -- go -- ti -- o per -- am -- bu -- lan -- te in te -- ne -- bris: ab in -- cur -- su et dae -- mo -- ni -- o me -- ri -- di -- a -- no.
+% 	Ca -- dent a la -- te -- re tu -- o mil -- le, et de -- cem mil -- li -- a a dex -- tris tu -- is: ad te au -- tem non ap -- pro -- pin -- qua -- bit.
+% 	Ve -- rum -- ta -- men o -- cu -- lis tu -- is con -- si -- de -- ra -- bis: et re -- tri -- bu -- ti -- o -- nem pec -- ca -- to -- rum vi -- de -- bis.
+% 	Quo -- ni -- am tu es Do -- mi -- ne spes me -- a: Al -- tis -- si -- mum po -- su -- i -- sti re -- fu -- gi -- um tu -- um.
+% 	Non ac -- ce -- dent ad te ma -- lum: et fla -- gel -- lum non ap -- pro -- pin -- qua -- bit ta -- ber -- na -- cu -- lo tu -- o.
+% 	Quo -- ni -- am an -- ge -- lis su -- is man -- da -- vit de te: ut cu -- sto -- di -- ant te in om -- ni -- bus vi -- is tu -- is.
+% 	In ma -- ni -- bus por -- ta -- bunt te: ne for -- te of -- fen -- das ad la -- pi -- dem pe -- dem tu -- um.
+% 	Su -- per a -- spi -- dem et ba -- si -- li -- scum am -- bu -- la -- bis: et con -- cul -- ca -- bis le -- o -- nem et dra -- co -- nem.
+% 	Quo -- ni -- am in me spe -- ra -- vit, li -- be -- ra -- bo e -- um: pro -- te -- gam e -- um, quo -- ni -- am co -- gno -- vit no -- men me -- um.
+% 	Cla -- ma -- bit ad me, et e -- go ex -- au -- di -- am e -- um: cum ip -- so sum in tri -- bu -- la -- ti -- o -- ne: e -- ri -- pi -- am e -- um et glo -- ri -- fi -- ca -- bo e -- um.
+% 	Lon -- gi -- tu -- di -- ne di -- e -- rum re -- ple -- bo e -- um: et o -- sten -- dam il -- li sa -- lu -- ta -- re me -- um.
+% 	Glo -- ri -- a Pa -- tri, et Fi -- li -- o, et Spi -- ri -- tu -- i San -- cto.
+% 	Si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
 }
 
 % TenoreNotes = {
