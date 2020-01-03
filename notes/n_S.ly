@@ -503,7 +503,7 @@ QuiHabitatSopranoNotes = {
 		h1 b
 		a g %110
 		r2 a d4. d8 d2
-		b1 b~
+		b!1 b~
 		b2 b2. b4 b b
 		a2 a1 g2
 		fis g4 a b2 a %115
