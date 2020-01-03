@@ -436,6 +436,19 @@ InTeDomineBassFigures = \figuremode {
 	r\breve %84 finis
 }
 
+QuiHabitatOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/2 \tempoInTeDomine
+			\set Staff.timeSignatureFraction = 2/2
+		r2 c' c f,
+	}
+}
+
+QuiHabitatBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
