@@ -550,7 +550,7 @@ QuiHabitatOrgano = {
 		r2 f f f
 		e1 es
 		d2 g1 f4 e
-		g d f2 c' c, %110
+		f c f2 c' c, %110
 		f f d1
 		d\breve
 		c1 c
@@ -603,9 +603,9 @@ QuiHabitatBassFigures = \figuremode {
 	r\breve %5
 	r1 <6>
 	<5>\breve
-	<4>2 <3> r1
-	r\breve
-	<[5!]>1 <6> %10
+	<4>2 <3> r <[3]>4 <[4!]>
+	<[6]>2. <[\t]>4 <[_!]>1
+	<[5!]> <6> %10
 	<3> <_!>
 	<5> <8>2 <7 5>
 	<4>1 <_!>
@@ -623,34 +623,34 @@ QuiHabitatBassFigures = \figuremode {
 	r %25
 	<3>2 <[6]>1 \bassFigureExtendersOn <6>4 q \bassFigureExtendersOff
 	r\breve
-	r
-	<6 5>2 <_+> r1
+	r1. <[6]>2
+	<6 5> <_+> r1
 	r\breve %30
 	<5 _!>
 	<[5!]>
 	r
 	r
 	r %35
-	r
+	<[6]>
 	<5>1. <6!>2
 	<5 3>1 <6 4>
 	<5 4>2 <\l 3> r1
 	r\breve %40
 	r1. <_!>2
-	r\breve
+	<[3]>\breve
 	r1 <[6!]>
 	<6>1. <5>2
 	r1 <_!> %45
 	<[5!]>\breve
 	r
-	<7 3>2 <6 4> <5 [4]> <\t 3>
+	<7 [_!]>2 <6 4> <5 [4]> <[\t _!]>
 	r\breve
 	r %50
 	r1 <4>2 <3>
 	r\breve
 	r
-	r
-	<5 2>1 <3> %55
+	r1 <[4]>2 <[3]>
+	<5 [2!]> <[\t \t]> <3>1 %55
 	r\breve
 	r2 <[6]> r <[_!]>
 	r <[6]> r q
@@ -658,8 +658,8 @@ QuiHabitatBassFigures = \figuremode {
 	r <[3]> q <[6!]> %60
 	q <[3]> <[_!]>1
 	<6 [5]>2 <6 4> <5 4> <\l _!>
-	<[6]>\breve
-	r
+	<[6]>1. q2
+	r\breve
 	r2 <5> <6>1 %65
 	<6> <3>
 	<3> <6>
@@ -668,16 +668,16 @@ QuiHabitatBassFigures = \figuremode {
 	<[1]>2 q <[5]>1 %70
 	r2 <6> <7> <[6!]>
 	r\breve
-	r2 <[6]> r1
+	r2 <[6]> <[7]> <[6]>
 	r\breve
 	r1 <5>2 <6!> %75
 	<4>1 <3>
 	r\breve
 	r1. <6>2
-	<6> <5!> r1
+	<6> <5> <[4]> <[3]>
 	r\breve %80
-	r
-	<3>
+	r1. <[_!]>2
+	<3>\breve
 	<7>2 <6> <[4]> <[3]>
 	<4>4 <\t> <_!>2 <5> <6>
 	r <[5]> <[6]>1 %85
@@ -716,8 +716,8 @@ QuiHabitatBassFigures = \figuremode {
 	r2 <[3]> <[6]> <[\t]>
 	<[3]>1 \bassFigureExtendersOn <3>2 \bassFigureExtendersOff <[3]>
 	r1 <2>2 <5-> %120
-	<4> <3> <5 2>1
-	<6>2 <6>1 <6>2
+	<[4-]> <3> <5 2> <6>
+	r q1 <6>2
 	<6\\>1 <[7]>2 <6\\>
 	<_!>\breve
 	r2 <6>1. %125
@@ -730,8 +730,8 @@ QuiHabitatBassFigures = \figuremode {
 	r\breve
 	<6>1 <6>2 <3>
 	<2> <6> <5> <3>
-	<7> <6> <8> <6> %135
-	<6>2 <[4]>4 <3> <2>2 <6>
+	<[3]> <6> <8> <6> %135
+	<6>2 <[4]>4 <3> <[5] 2>2 <6>
 	r\breve
 	r
 	r2 <6>1.
@@ -739,7 +739,7 @@ QuiHabitatBassFigures = \figuremode {
 	<4>2 <3> r1
 	r\breve
 	r1. <6>2
-	r <3> r1
+	r <3> r <[6]>
 	r\breve %145
 	r
 	<5>2 <6> <5>1

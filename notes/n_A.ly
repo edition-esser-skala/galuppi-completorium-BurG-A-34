@@ -486,7 +486,7 @@ QuiHabitatAltoNotes = {
 		r1 f~ %85
 		f2 d e1
 		f4 c f1 e2
-		r1 f2 f4 e
+		r1 f2 f4 f
 		d2 d4 d b2 b
 		r1 r2 g'~ %90
 		g f f( e)
@@ -519,7 +519,7 @@ QuiHabitatAltoNotes = {
 		g4( f) es( d) c2( f)
 		d1 r %120
 		r f2. f4
-		f2( e4 d e2) d
+		f2( e!4 d e2) d
 		cis d1 cis2
 		d\breve
 		r2 d2. d4 d2 %125
