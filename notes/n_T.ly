@@ -456,7 +456,7 @@ QuiHabitatTenoreNotes = {
 		R\breve*6 %62
 		r2 c4 c c2 c
 		c c a f~
-		f a4 a b2 b %65
+		f a4 a b!2 b %65
 		b4 b b a g2 g
 		g g g2. g4
 		a1 \once \tieDashed a~

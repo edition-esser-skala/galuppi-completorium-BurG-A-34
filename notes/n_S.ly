@@ -467,12 +467,12 @@ QuiHabitatSopranoNotes = {
 		c2 c4 c c2 c4 c
 		c2 c4 c d1
 		r c~ %70
-		c2 c c h4 h
+		c2 c c b?4 b
 		a2 a c2. c4
 		c1 d
 		c a~
 		a2 c d1 %75
-		a\breve
+		g,\breve
 		a
 		R\breve*5 %82
 		r1 c2 c

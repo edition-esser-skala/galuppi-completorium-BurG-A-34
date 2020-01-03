@@ -441,51 +441,51 @@ QuiHabitatOrgano = {
 		\clef bass
 		\key f \major \time 4/2 \tempoInTeDomine
 			\set Staff.timeSignatureFraction = 2/2
-		r2 c' c f,
+		\clef "treble_8" r2 c' c \clef bass f,
 		f f f f~
 		f f f4 f e d
 		e1^\critnote f
-		d2 d e e %5
+		\clef treble d'2 d e e %5
 		f f d1
-		e f2 f
-		c c f f
+		e \clef "treble_8" f,2 f
+		\clef bass c c f f
 		e4 e e fis g2 g
-		e1 a2 a %10
-		b b g g
+		e1 \clef treble c'2^\critnote c %10
+		d d \clef bass g, g
 		a a f f
 		g g g g
 		e e f1
 		b g %15
 		a f
-		f b
+		f \clef "treble_8" b
 		es c
 		d b
-		b r2 f~ %20
+		b \clef treble a'2^\critnote f~ %20
 		f f d d~
 		d c4 b c1
-		b2 b b b
+		\clef bass b,2 b b b
 		f' f1 f2
 		d1 d %25
-		d'2 cis4 h cis1
-		d2 d, d d
+		\clef "treble_8" d'2 cis4 h cis1
+		d2 \clef bass d, d d
 		d d1 f2
 		g a d,1
-		r2 d d d %30
+		r2 \clef treble d' d d %30
 		g g1 g2
-		e1. e2
+		e1 r2 e
 		c c r4 c c c
-		c2 c f f
+		c2 c \clef bass f, f
 		f1 f2 f %35
 		e e f1
 		d\breve
 		c~
 		c1 f,
-		r2 c' f1 %40
+		\clef "treble_8" r2 c''^\critnote \clef bass f,1 %40
 		d r2 g
 		e e c c
-		f1 d2 d
+		f1 \clef treble d'2 d
 		e e r f
-		d d g g %45
+		\clef "treble_8" d d \clef bass g, g %45
 		e e c c
 		f1 d
 		g\breve
@@ -496,23 +496,23 @@ QuiHabitatOrgano = {
 		f f d1~
 		d2 d a' a
 		a gis a1~ %55
-		a f2 f
+		a \clef treble f'2 f
 		f e r g
 		g f^\critnote f e
 		e d1 c2
 		d e f d %60
-		e fis g g
+		e fis g \clef bass g,
 		g g g g
 		e c1 e2
 		f f f4 f f e
 		d2 d d1 %65
 		d2 d e1
 		e\breve
-		f1 a~
+		f1 \clef "treble_8" a~
 		a b
-		a2 f1 f2 %70
+		\clef treble a'2 f1 f2 %70
 		f e d1
-		f2 f1 f2
+		f2 \clef bass f,1 f2
 		f e d1
 		f f
 		f d %75
@@ -524,8 +524,8 @@ QuiHabitatOrgano = {
 		d1 r2 g
 		e e c c
 		d1 c
-		r4 g' g g g2 f
-		r a1 f2 %85
+		\clef treble r4 g'' g g g2 f
+		\clef bass r a,1 f2 %85
 		g\breve
 		f1 c
 		f2 f d d
@@ -536,7 +536,7 @@ QuiHabitatOrgano = {
 		d d2 f
 		g1 c,2 e~
 		e e f f %95
-		d1 d
+		\clef treble d'1 \clef bass d,
 		d2 g1 g2
 		e1 e2 e
 		f1 f
@@ -546,42 +546,42 @@ QuiHabitatOrgano = {
 		f1. e4 d
 		g1 e
 		f d %105
-		d f
+		d \clef treble f'
 		r2 f f f
 		e1 es
 		d2 g1 f4 e
-		f c f2 c' c, %110
+		f c \clef "treble_8" f,2 c' \clef bass c, %110
 		f f d1
 		d\breve
 		c1 c
 		f g
 		d\breve %115
-		g,1 es'~
+		g,1 \clef treble es''~
 		es2 es es es
 		f1 r2 d
-		g4 f es d c2 f
+		g4 f es d c2 \clef bass f,
 		g b b a %120
 		b2. b4 b2 a~
 		a g1 f2
 		e d e1
 		d\breve
-		r2 b'!1 b2 %125
+		\clef "treble_8" r2 b'!1 b2 %125
 		c1 c
 		r2 c1 c2
 		d1 d
 		r2 d1 d2
 		c1 f, %130
 		b c
-		f,2 f1 f2
+		f,2 \clef bass f1 f2
 		e1 d2 g~
 		g f g a
 		b g f1 %135
 		e2 f1 e2
-		f1 f
+		f1 \clef treble f'
 		d c
 		r2 f d g
 		r e c f %140
-		c' c f, f
+		\clef "treble_8" c c \clef bass f, f
 		f f d d
 		c1 r2 f
 		d g r e
@@ -615,8 +615,8 @@ QuiHabitatBassFigures = \figuremode {
 	r
 	<5>1 <_->
 	<5>\breve
-	r %20
-	r1 <7>2 <6>
+	r1 <[1]>2 <[3]> %20
+	<[5]>1 <7>2 <6>
 	r1 <7>2 <6>
 	r\breve
 	r
@@ -626,10 +626,10 @@ QuiHabitatBassFigures = \figuremode {
 	r1. <[6]>2
 	<6 5> <_+> r1
 	r\breve %30
-	<5 _!>
-	<[5!]>
-	r
-	r
+	<5>1 <_!>
+	<[5!]> <[3]>
+	<[5]>\breve
+	<[3]>
 	r %35
 	<[6]>
 	<5>1. <6!>2
@@ -660,7 +660,7 @@ QuiHabitatBassFigures = \figuremode {
 	<6 [5]>2 <6 4> <5 4> <\l _!>
 	<[6]>1. q2
 	r\breve
-	r2 <5> <6>1 %65
+	r2 <5> <6->1 %65
 	<6> <3>
 	<3> <6>
 	<5>1 <6>
@@ -717,7 +717,7 @@ QuiHabitatBassFigures = \figuremode {
 	<[3]>1 \bassFigureExtendersOn <3>2 \bassFigureExtendersOff <[3]>
 	r1 <2>2 <5-> %120
 	<[4-]> <3> <5 2> <6>
-	r q1 <6>2
+	r <6!>1 <6>2
 	<6\\>1 <[7]>2 <6\\>
 	<_!>\breve
 	r2 <6>1. %125
