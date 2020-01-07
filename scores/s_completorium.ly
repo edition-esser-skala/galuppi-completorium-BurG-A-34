@@ -106,44 +106,87 @@
 % 			\midi { \tempo 1 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3 QUI HABITAT"
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuiHabitatSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuiHabitatSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuiHabitatAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \QuiHabitatAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \QuiHabitatTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \QuiHabitatTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \QuiHabitatBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \QuiHabitatBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuiHabitatOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \QuiHabitatBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 1 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3 QUI HABITAT"
+			movement = "4 ECCE NUNC BENEDICITE"
 		}
 		\score {
 			<<
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuiHabitatSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \EcceNuncSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuiHabitatSopranoLyrics
+					\new Lyrics \lyricsto Soprano \EcceNuncSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuiHabitatAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \EcceNuncAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \QuiHabitatAltoLyrics
+					\new Lyrics \lyricsto Alto \EcceNuncAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \QuiHabitatTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \EcceNuncTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \QuiHabitatTenoreLyrics
+					\new Lyrics \lyricsto Tenore \EcceNuncTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \QuiHabitatBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \EcceNuncBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \QuiHabitatBassoLyrics
+					\new Lyrics \lyricsto Basso \EcceNuncBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuiHabitatOrgano
+						\EcceNuncOrgano
 					}
 				>>
-				\new FiguredBass { \QuiHabitatBassFigures }
+				\new FiguredBass { \EcceNuncBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 1 = 60 }

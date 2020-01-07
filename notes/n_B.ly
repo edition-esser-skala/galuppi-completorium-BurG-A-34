@@ -377,7 +377,7 @@ InTeDomineBassoLyrics = \lyricmode {
 QuiHabitatBassoNotes = {
 	\relative c {
 		\clef bass
-		\key f \major \time 4/2 \autoBeamOff \tempoInTeDomine
+		\key f \major \time 4/2 \autoBeamOff \tempoQuiHabitat
 			\set Staff.timeSignatureFraction = 2/2
 		r1 r2 f
 		f2. f4 f2 f~
@@ -634,6 +634,19 @@ QuiHabitatBassoLyrics = \lyricmode {
 	a -- men,
 	a -- %150
 	men. %151 finis
+}
+
+EcceNuncBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/2 \autoBeamOff \tempoEcceNunc
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+EcceNuncBassoLyrics = \lyricmode {
+	
 }
 
 % BassoNotes = {

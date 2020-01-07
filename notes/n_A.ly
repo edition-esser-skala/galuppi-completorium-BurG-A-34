@@ -411,7 +411,7 @@ InTeDomineAltoLyrics = \lyricmode {
 QuiHabitatAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/2 \autoBeamOff \tempoInTeDomine
+		\key f \major \time 4/2 \autoBeamOff \tempoQuiHabitat
 			\set Staff.timeSignatureFraction = 2/2
 		R\breve*3
 		c2. c4 c2 c
@@ -682,6 +682,19 @@ QuiHabitatAltoLyrics = \lyricmode {
 	men, __ a --
 	_ _ _ %150
 	men. %151 finis
+}
+
+EcceNuncAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/2 \autoBeamOff \tempoEcceNunc
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+EcceNuncAltoLyrics = \lyricmode {
+	
 }
 
 % AltoNotes = {

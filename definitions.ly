@@ -182,6 +182,8 @@ tempoMarkup =
 
 tempoCumInvocarem = \tempoMarkup "[Tempo deest]"
 tempoInTeDomine = \tempoMarkup "[Tempo deest]"
+tempoQuiHabitat = \tempoMarkup "[Tempo deest]"
+tempoEcceNunc = \tempoMarkup "[Tempo deest]"
 
 
 

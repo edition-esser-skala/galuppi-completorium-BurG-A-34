@@ -402,7 +402,7 @@ InTeDomineSopranoLyrics = \lyricmode {
 QuiHabitatSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/2 \autoBeamOff \tempoInTeDomine
+		\key f \major \time 4/2 \autoBeamOff \tempoQuiHabitat
 			\set Staff.timeSignatureFraction = 2/2
 		r1 r2 a'
 		a2. a4 a2 a~
@@ -673,6 +673,19 @@ QuiHabitatSopranoLyrics = \lyricmode {
 	_ _ _ _
 	_ _ _ %150
 	men. %151 finis
+}
+
+EcceNuncSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/2 \autoBeamOff \tempoEcceNunc
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+EcceNuncSopranoLyrics = \lyricmode {
+	
 }
 
 % SopranoNotes = {

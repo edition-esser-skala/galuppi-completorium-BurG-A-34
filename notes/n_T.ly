@@ -406,7 +406,7 @@ InTeDomineTenoreLyrics = \lyricmode {
 QuiHabitatTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key f \major \time 4/2 \autoBeamOff \tempoInTeDomine
+		\key f \major \time 4/2 \autoBeamOff \tempoQuiHabitat
 			\set Staff.timeSignatureFraction = 2/2
 		r2 c c2. c4
 		c2 c1 c4 c
@@ -662,6 +662,19 @@ QuiHabitatTenoreLyrics = \lyricmode {
 	men,
 	a -- %150
 	men. %151 finis
+}
+
+EcceNuncTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/2 \autoBeamOff \tempoEcceNunc
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+EcceNuncTenoreLyrics = \lyricmode {
+	
 }
 
 % TenoreNotes = {

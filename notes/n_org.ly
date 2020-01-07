@@ -439,7 +439,7 @@ InTeDomineBassFigures = \figuremode {
 QuiHabitatOrgano = {
 	\relative c {
 		\clef bass
-		\key f \major \time 4/2 \tempoInTeDomine
+		\key f \major \time 4/2 \tempoQuiHabitat
 			\set Staff.timeSignatureFraction = 2/2
 		\clef "treble_8" r2 c' c \clef bass f,
 		f f f f~
@@ -747,6 +747,19 @@ QuiHabitatBassFigures = \figuremode {
 	<[6 5]> <[9]>2 <[8]>
 	<4>1 <3> %150
 	r\breve %151 finis
+}
+
+EcceNuncOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/2 \tempoEcceNunc
+			\set Staff.timeSignatureFraction = 2/2
+		a'1 d,
+	}
+}
+
+EcceNuncBassFigures = \figuremode {
+	
 }
 
 % Organo = {
