@@ -641,22 +641,98 @@ EcceNuncBassoNotes = {
 		\clef bass
 		\key d \dorian \time 4/2 \autoBeamOff \tempoEcceNunc
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r1 d
+		a' f2 f
+		g d e e4 e
+		f2. f4 f1
+		R\breve*2 %6
+		r2 d f f
+		r e g g
+		r f a a
+		a gis gis1 %10
+		R\breve*4
+		r2 e f2. f4 %15
+		e2 a^\critnote a4. a8 g2
+		f1 e
+		R\breve
+		r2 a e2. f4
+		g2 g f1 %20
+		a2 a e1
+		R\breve
+		r1 r2 a4 a
+		a2 g4 g g4. g8 f2~
+		f e f1 %25
+		g2 a d, d
+		d cis d1
+		e2 e f4 e d2~
+		d4 c h!2 a a'
+		a gis a1 %30
+		f2 d e1
+		f c^\critnote
+		f d2. d4
+		d2 a'1 a2
+		a a4 a f4. f8 f2 %35
+		g g e4. e8 f2^\critnote
+		d( e) a,1
+		R\breve*4 %41
+		d2 d d d4 d
+		d2 d a' a
+		r d,( f) d
+		R\breve %45
+		r1 r2 d(
+		f) d d1
+		g\breve
+		a~
+		a %50
+		d,\fermata \bar "|." %51 finis
 	}
 }
 
 EcceNuncBassoLyrics = \lyricmode {
-% 	Ec -- ce nunc be -- ne -- di -- ci -- te Do -- mi -- num,
-% 	om -- nes ser -- vi Do -- mi -- ni:
-% 	qui sta -- tis in do -- mo Do -- mi -- ni, in a -- tri -- is do -- mus De -- i no -- stri.
-% 	In no -- cti -- bus ex -- tol -- li -- te ma -- nus ve -- stras in san -- cta,
-% 	et be -- ne -- di -- ci -- te Do -- mi -- num.
-% 	Be -- ne -- di -- cat te Do -- mi -- nus ex Si -- on,
-% 	qui fe -- cit coe -- lum et ter -- ram.
-% 	Glo -- ri -- a Pa -- tri, Pa -- tri et Fi -- li -- o,
-% 	et Spi -- ri -- tu -- i San -- cto.
-% 	Si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per,
-% 	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+	Ec --
+	ce nunc, nunc
+	be -- ne -- di -- ci -- te
+	Do -- mi -- num:
+	
+	qui sta -- tis %7
+	in do -- mo,
+	in do -- mo
+	Do -- mi -- ni. %10
+	
+	In no -- cti -- %15
+	bus ex -- tol -- li -- te
+	ma -- nus,
+	
+	et be -- ne --
+	di -- ci -- te %20
+	Do -- mi -- num.
+	
+	Be -- ne --
+	di -- cat te Do -- mi -- nus __
+	ex Si -- %25
+	on, qui fe -- cit,
+	fe -- cit coe --
+	lum et ter -- _ _
+	_ _ ram, qui
+	fe -- cit coe -- %30
+	lum et ter --
+	_ _
+	ram. Glo -- ri --
+	a Pa -- tri,
+	Pa -- tri et Fi -- li -- o, %35
+	et Spi -- ri -- tu -- i
+	San -- cto.
+	
+	Et in sae -- cu -- la %42
+	sae -- cu -- lo -- rum,
+	a -- men,
+	%45
+	a --
+	men, a --
+	men,
+	a --
+	%50
+	men. %%1 finis
 }
 
 % BassoNotes = {

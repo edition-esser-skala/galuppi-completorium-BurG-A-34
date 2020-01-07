@@ -669,22 +669,102 @@ EcceNuncTenoreNotes = {
 		\clef "treble_8"
 		\key d \dorian \time 4/2 \autoBeamOff \tempoEcceNunc
 			\set Staff.timeSignatureFraction = 2/2
-		
+		a1 d
+		cis2 cis d a
+		b1. a4 g
+		a2. a4 a1
+		R\breve %5
+		r1 r2 a
+		b b r a
+		c c r h
+		d d c c
+		h\breve %10
+		R\breve*4
+		r1 r2 a %15
+		c2. c4 h2 e
+		e4. e8 d2 c1
+		h r2 d
+		a2. h4 c2 c
+		h1 d2. d4 %20
+		c1 r2 e4 e
+		e2 d4 d d4. d8 c2~
+		c h c1
+		d2 e a, d~
+		d cis d1 %25
+		e2 e f4( e d2)
+		a1. f'2
+		e1 d~
+		d e
+		R\breve %30
+		r2 d d c
+		c c4 c c1
+		c d2. d4
+		d2 cis1 cis2
+		cis? cis4 cis d4. d8 d2 %35
+		h h c4. c8 a2
+		a( gis) a1
+		R\breve*3 %40
+		r1 a2 a
+		a a4 a a2 a
+		d d r1
+		r2 f,( a) f
+		r1 r2 a( %45
+		cis) a r1
+		r2 d( f) d
+		d1 d
+		cis d~
+		d2 cis4 h cis1 %50
+		d\breve\fermata \bar "|." %51 finis
 	}
 }
 
 EcceNuncTenoreLyrics = \lyricmode {
-% 	Ec -- ce nunc be -- ne -- di -- ci -- te Do -- mi -- num,
-% 	om -- nes ser -- vi Do -- mi -- ni:
-% 	qui sta -- tis in do -- mo Do -- mi -- ni, in a -- tri -- is do -- mus De -- i no -- stri.
-% 	In no -- cti -- bus ex -- tol -- li -- te ma -- nus ve -- stras in san -- cta,
-% 	et be -- ne -- di -- ci -- te Do -- mi -- num.
-% 	Be -- ne -- di -- cat te Do -- mi -- nus ex Si -- on,
-% 	qui fe -- cit coe -- lum et ter -- ram.
-% 	Glo -- ri -- a Pa -- tri, Pa -- tri et Fi -- li -- o,
-% 	et Spi -- ri -- tu -- i San -- cto.
-% 	Si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per,
-% 	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+	Ec -- ce
+	nunc, nunc be -- ne --
+	di -- ci -- te
+	Do -- mi -- num:
+	%5
+	qui
+	sta -- tis in
+	do -- mo, in
+	do -- mo Do -- mi --
+	ni. %10
+	
+	In %15
+	no -- cti -- bus ex --
+	tol -- li -- te ma --
+	nus, et
+	be -- ne -- di -- ci --
+	te Do -- mi -- %20
+	num. Be -- ne --
+	di -- cat te Do -- mi -- nus __
+	ex Si --
+	on, qui fe -- _
+	cit coe -- %25
+	lum et ter --
+	ram, et
+	ter -- _
+	ram,
+	%30
+	qui fe -- cit
+	coe -- lum et ter --
+	ram. Glo -- ri --
+	a Pa -- tri,
+	Pa -- tri et Fi -- li -- o, %35
+	et Spi -- ri -- tu -- i
+	San -- cto.
+	
+	Et in %41
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a -- men,
+	a -- %45
+	men,
+	a -- men,
+	a -- men
+	a -- _
+	_ _ _ %50
+	men. %%1 finis
 }
 
 % TenoreNotes = {
