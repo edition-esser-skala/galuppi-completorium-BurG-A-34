@@ -754,29 +754,29 @@ EcceNuncOrgano = {
 		\clef bass
 		\key d \dorian \time 4/2 \tempoEcceNunc
 			\set Staff.timeSignatureFraction = 2/2
-		a'1 d,
+		\clef "treble_8" a'1 \clef bass d,
 		a' f2 f
 		g d e e
 		f1 f
-		f2 f1 d2 %5
-		g2. f4 e2 a
-		b? d, f1
+		\clef treble f'2 f1 d2 %5
+		g2. f4 e2 \clef "treble_8" a,
+		b? \clef bass d, f1
 		r2 e g1
 		r2 f a a
 		a gis gis1 %10
-		r2 a a a
-		f1 f
+		\clef treble r2 a a a
+		f'1 f
 		r2 d1 f2
 		e2. d4 c1
-		h2 e f f %15
+		h2 \clef bass e, f f %15
 		e a a g
 		f1 e
-		h' r2 d
-		a a e2. f4
+		\clef "treble_8" h' r2 d
+		a \clef bass a e2. f4
 		g2 g f1 %20
 		a e
-		e'2 d d c~
-		c h c a
+		\clef "treble_8" e'2 d d c~
+		c h c \clef bass a
 		a g g f
 		f e f1 %25
 		g2 a d, d
@@ -791,15 +791,15 @@ EcceNuncOrgano = {
 		a a f f %35
 		g g e f
 		d e a,1
-		d a'2 f
+		\clef treble d' a'2 f
 		g e f d
 		e c f d %40
-		g e a a
-		d, d d d
+		g e \clef "treble_8" a, a
+		\clef bass d, d d d
 		d d a'1
 		r2 d, f d
-		d d a' a %45
-		cis a r d,
+		\clef treble d' d a' \clef "treble_8" a, %45
+		cis a r \clef bass d,
 		f d d1
 		g\breve
 		a
