@@ -689,22 +689,101 @@ EcceNuncAltoNotes = {
 		\clef treble
 		\key d \dorian \time 4/2 \autoBeamOff \tempoEcceNunc
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*3
+		f2 f f1
+		f2 f1 d2 %5
+		g2.( f4 e2) e
+		d1 r
+		R\breve*3 %10
+		r2 a a a4 a
+		f'1 f
+		r2 d1 f2
+		e2. d4 c1
+		h2 e1 d2 %15
+		e1 r
+		r2 a1 g2
+		g g4 g f2.( g4)
+		a1 r
+		r r2 a %20
+		e2. f4 g2 g
+		f1 e2. e4
+		d1 r
+		R\breve
+		r1 r2 d %25
+		d cis d1
+		e2 e f4 e d2
+		g1. f2~
+		f4 e d2 c1
+		r2 e e c %30
+		d f g g~
+		g4 f f1 e2
+		f1 f2. f4
+		f2 e1 e2
+		e e4 e f4. f8 f2 %35
+		d d e4. e8 c2
+		h1 cis
+		d a'2 f
+		g e f d
+		e c f d %40
+		g e a1
+		R\breve*2
+		d,2 d d d4 d
+		d2 d a' a %45
+		r1 r2 f(
+		a) f r1
+		r2 g b? g~
+		g f4 e f2 e4 d
+		e1. fis4 g %50
+		fis\breve \bar "|." %51 finis
 	}
 }
 
 EcceNuncAltoLyrics = \lyricmode {
-	Ec -- ce nunc be -- ne -- di -- ci -- te Do -- mi -- num,
-	om -- nes ser -- vi Do -- mi -- ni:
-	qui sta -- tis in do -- mo Do -- mi -- ni, in a -- tri -- is do -- mus De -- i no -- stri.
-	In no -- cti -- bus ex -- tol -- li -- te ma -- nus ve -- stras in san -- cta,
-	et be -- ne -- di -- ci -- te Do -- mi -- num.
-	Be -- ne -- di -- cat te Do -- mi -- nus ex Si -- on,
-	qui fe -- cit coe -- lum et ter -- ram.
-	Glo -- ri -- a Pa -- tri, Pa -- tri et Fi -- li -- o,
-	et Spi -- ri -- tu -- i San -- cto.
-	Si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per,
-	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+	Om -- nes ser -- %4
+	vi, ser -- vi %5
+	Do -- mi --
+	ni:
+	
+	in a -- tri -- is %11
+	do -- mus
+	De -- i
+	no -- _ _
+	_ _ _ %15
+	stri.
+	Ma -- nus
+	ve -- stras in san --
+	cta,
+	et %20
+	be -- ne -- di -- ci --
+	te Do -- mi --
+	num.
+	
+	Qui %25
+	fe -- cit coe --
+	lum et ter -- _ _
+	_ _
+	_ _ ram,
+	qui fe -- cit %30
+	coe -- lum et ter --
+	_ _ _
+	ram. Glo -- ri --
+	a Pa -- tri,
+	Pa -- tri et Fi -- li -- o, %35
+	et Spi -- ri -- tu -- i
+	San -- cto.
+	Si -- cut e --
+	rat in prin -- ci --
+	pi -- o et nunc %40
+	et sem -- per,
+	
+	et in sae -- cu -- la %44
+	sae -- cu -- lo -- rum, %45
+	a --
+	men,
+	a -- _ _
+	_ _ _ _ _
+	_ _ _ %50
+	men. %51 finis
 }
 
 % AltoNotes = {

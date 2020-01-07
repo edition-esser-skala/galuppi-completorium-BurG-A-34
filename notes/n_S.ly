@@ -721,8 +721,8 @@ EcceNuncSopranoNotes = {
 		r1 a2 a
 		a a4 a a2 a
 		d d r cis( %45
-		e) cis e1~
-		e a,
+		e) cis d1~
+		d a
 		r2 b( d) b
 		a1 a
 		a\breve %50

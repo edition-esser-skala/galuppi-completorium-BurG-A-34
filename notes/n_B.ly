@@ -646,7 +646,17 @@ EcceNuncBassoNotes = {
 }
 
 EcceNuncBassoLyrics = \lyricmode {
-	
+% 	Ec -- ce nunc be -- ne -- di -- ci -- te Do -- mi -- num,
+% 	om -- nes ser -- vi Do -- mi -- ni:
+% 	qui sta -- tis in do -- mo Do -- mi -- ni, in a -- tri -- is do -- mus De -- i no -- stri.
+% 	In no -- cti -- bus ex -- tol -- li -- te ma -- nus ve -- stras in san -- cta,
+% 	et be -- ne -- di -- ci -- te Do -- mi -- num.
+% 	Be -- ne -- di -- cat te Do -- mi -- nus ex Si -- on,
+% 	qui fe -- cit coe -- lum et ter -- ram.
+% 	Glo -- ri -- a Pa -- tri, Pa -- tri et Fi -- li -- o,
+% 	et Spi -- ri -- tu -- i San -- cto.
+% 	Si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per,
+% 	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
 }
 
 % BassoNotes = {
