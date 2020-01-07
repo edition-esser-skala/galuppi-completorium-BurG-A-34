@@ -752,14 +752,114 @@ QuiHabitatBassFigures = \figuremode {
 EcceNuncOrgano = {
 	\relative c {
 		\clef bass
-		\key a \minor \time 4/2 \tempoEcceNunc
+		\key d \dorian \time 4/2 \tempoEcceNunc
 			\set Staff.timeSignatureFraction = 2/2
 		a'1 d,
+		a' f2 f
+		g d e e
+		f1 f
+		f2 f1 e2 %5
+		g2. f4 e2 a
+		b? d, f1
+		r2 e g1
+		r2 f a a
+		a gis gis1 %10
+		r2 a a a
+		f1 f
+		r2 d1 f2
+		e2. d4 c1
+		h2 e f f %15
+		e a a g
+		f1 e
+		h' r2 d
+		a a e2. f4
+		g2 g f1 %20
+		a e
+		e'2 d d c~
+		c h c a
+		a g g f
+		f e f1 %25
+		g2 a d, d
+		d cis d1
+		e2 e f4 e d2
+		d4 c h!2 a a'
+		a gis a1 %30
+		f2 d e1
+		f c
+		f, d'
+		d2 a'1 a2
+		a a f f %35
+		g g e f
+		d e a,1
+		d a'2 f
+		g e f d
+		e c f d %40
+		g e a a
+		d, d d d
+		d d a'1
+		r2 d, f d
+		d d a' a %45
+		cis a r d,
+		f d d1
+		g\breve
+		a
+		a %50
+		d,\fermata \bar "|." %51 finis
 	}
 }
 
 EcceNuncBassFigures = \figuremode {
-	
+	r\breve
+	<_+>1 <6>
+	<_->2 <6-> <5->1
+	r\breve
+	<5>2 <3> <6>1 %5
+	<5>2 <6> <7> <_+>
+	r <6-> r1
+	r2 <6>1.
+	r2 <6 3>1.
+	<2>2 <6 3>1. %10
+	r\breve
+	r
+	r2 <6> <5>1
+	<_+>1 <7>2 <6>
+	<7> <_+> <7> <6> %15
+	<6>1 <2>2 <6>
+	<7> <6> <6 4> <\l 3>
+	r\breve
+	r1 <6>
+	r <6> %20
+	r\breve
+	<4 2>2 <3> <4 2> <5 3>
+	<5 2> <6> r1
+	<4>2 <6> <2> <6>
+	r <6\\> <6>1 %25
+	<5>2 <6> <_+>1
+	<5 2>2 <3> r1
+	<7>2 <6\\> r1
+	r\breve
+	<2>1 <5> %30
+	<5>2 <6-> <7 5-> <6>
+	<9> <8> <4> <3>
+	r\breve
+	r2 <_+>1.
+	r1 <6> %35
+	<5> <6>
+	<6 5>2 <_+> <_+>1
+	r <_+>2 <6>
+	<2> <6!> r1
+	r\breve %40
+	r1 <_+>
+	r\breve
+	r
+	r
+	r %45
+	r
+	r
+	<_->
+	<7 _+>1 <6 4>
+	<5 4> <\l [_+]> %50
+	<[_+]>\breve %51 finis
 }
 
 % Organo = {

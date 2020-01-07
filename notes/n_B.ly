@@ -639,7 +639,7 @@ QuiHabitatBassoLyrics = \lyricmode {
 EcceNuncBassoNotes = {
 	\relative c {
 		\clef bass
-		\key a \minor \time 4/2 \autoBeamOff \tempoEcceNunc
+		\key d \dorian \time 4/2 \autoBeamOff \tempoEcceNunc
 			\set Staff.timeSignatureFraction = 2/2
 		
 	}

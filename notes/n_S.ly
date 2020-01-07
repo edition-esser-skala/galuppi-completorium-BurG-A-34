@@ -678,14 +678,104 @@ QuiHabitatSopranoLyrics = \lyricmode {
 EcceNuncSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key a \minor \time 4/2 \autoBeamOff \tempoEcceNunc
+		\key d \dorian \time 4/2 \autoBeamOff \tempoEcceNunc
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*2
+		r1 c'2 c
+		c1 c2 c~
+		c a d f %5
+		e4 d d1 cis2
+		d1 r
+		R\breve*2
+		r2 e, e e4 e %10
+		c'1 c
+		r2 a1 c2
+		h1 a
+		gis4 a h2. a4 a2~
+		a gis a1 %15
+		R\breve
+		r1 r2 e'~
+		e d d d4 d
+		c2.( d4) e1
+		r2 d a2. h4 %20
+		c2 c h1
+		a2. a4 g1~
+		g r
+		R\breve*3 %26
+		r1 r2 d'
+		d cis r a
+		a gis a1
+		h2 h c4 h a2~ %30
+		a b1 a4 g
+		a2. g8[ f] g1
+		a2 a2. a4 a2
+		a1 a
+		a2 a4 a a4. a8 a2 %35
+		g g g4. g8 f2
+		f( e) e a~
+		a d cis d
+		h c a h
+		g c a d %40
+		h( d) cis1
+		R\breve
+		r1 a2 a
+		a a4 a a2 a
+		d d r cis( %45
+		e) cis e1~
+		e a,
+		r2 b( d) b
+		a1 a
+		a\breve %50
+		a\fermata \bar "|." %51 finis
 	}
 }
 
 EcceNuncSopranoLyrics = \lyricmode {
+	Om -- nes %3
+	ser -- vi, ser --
+	vi Do -- _ %5
+	_ _ _ mi --
+	ni:
 	
+	in a -- tri -- is %10
+	do -- mus
+	De -- i
+	no -- _
+	_ _ _ _ _
+	_ stri. %15
+	
+	Ma --
+	nus ve -- stras in
+	san -- cta,
+	et be -- ne -- %20
+	di -- ci -- te
+	Do -- mi -- num. __
+	
+	Qui %27
+	fe -- cit, qui
+	fe -- cit coe --
+	lum et ter -- _ _ %30
+	_ _ _
+	_ _ _
+	ram. Glo -- ri -- a
+	Pa -- tri,
+	Pa -- tri, et Fi -- li -- o, %35
+	et Spi -- ri -- tu -- i
+	San -- cto. Si --
+	cut e -- rat
+	in prin -- ci -- pi --
+	o et nunc et %40
+	sem -- per,
+	
+	et in %43
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a -- %45
+	men, a --
+	men,
+	a -- men,
+	a -- men,
+	a -- %50
+	men. %51 finis
 }
 
 % SopranoNotes = {
