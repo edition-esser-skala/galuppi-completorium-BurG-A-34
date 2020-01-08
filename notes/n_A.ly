@@ -912,14 +912,15 @@ NuncDimittisAltoLyrics = \lyricmode {
 	men. %74 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+TeLucisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \mixolydian \time 2/1 \autoBeamOff \tempoTeLucis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+TeLucisAltoLyrics = \lyricmode {
+	
+}

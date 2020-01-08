@@ -858,14 +858,15 @@ NuncDimittisBassoLyrics = \lyricmode {
 	men. %74 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+TeLucisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \mixolydian \time 2/1 \autoBeamOff \tempoTeLucis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+TeLucisBassoLyrics = \lyricmode {
+	
+}

@@ -899,14 +899,15 @@ NuncDimittisTenoreLyrics = \lyricmode {
 	men. %74 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+TeLucisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \mixolydian \time 2/1 \autoBeamOff \tempoTeLucis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+TeLucisTenoreLyrics = \lyricmode {
+	
+}

@@ -1021,14 +1021,15 @@ NuncDimittisBassFigures = \figuremode {
 	r\breve %74 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+TeLucisOrgano = {
+	\relative c {
+		\clef bass
+		\key g \mixolydian \time 2/1 \tempoTeLucis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+TeLucisBassFigures = \figuremode {
+	
+}

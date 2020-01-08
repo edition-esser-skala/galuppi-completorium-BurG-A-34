@@ -904,17 +904,18 @@ NuncDimittisSopranoLyrics = \lyricmode {
 	men. %74 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+TeLucisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \mixolydian \time 2/1 \autoBeamOff \tempoTeLucis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+TeLucisSopranoLyrics = \lyricmode {
+	
+}
 
 % Glo -- ri -- a Pa -- tri,
 % 	Pa -- tri, et Fi -- li -- o,
