@@ -868,7 +868,7 @@ NuncDimittisOrgano = {
 		\key g \mixolydian \time 2/1 \tempoNuncDimittis
 			\set Staff.timeSignatureFraction = 2/2
 		g'1. g2
-		g fis g1
+		g fis fis1
 		g2 g g g
 		e1 e2 e
 		fis fis fis fis %5
@@ -877,21 +877,21 @@ NuncDimittisOrgano = {
 		d1 g~
 		g2 fis4 e fis1
 		g\breve %10
-		g1 g~
+		\clef treble g'1 g~
 		g2 g1 g2
 		a1 a
 		fis2 fis fis fis
-		g h1 h2 %15
-		c e,1 e2
+		g \clef "treble_8" h,1 h2 %15
+		c \clef bass e,1 e2
 		f!1 f
 		r2 d1 d2
 		e1 e
 		c2 c c c %20
 		d1 d
-		e2 e e e
+		\clef "treble_8" e'2 e e e
 		c1 c
 		d d
-		\clef treble g'-\critnote g %25
+		\clef treble g-\critnote g %25
 		\clef bass r2 g,1 g2
 		a a a a
 		f1 f
@@ -904,10 +904,10 @@ NuncDimittisOrgano = {
 		c,1 c %35
 		c d2 d
 		d d e1
-		e c2 c
-		f f f f
+		e \clef treble c'2 c
+		\clef bass f, f f f
 		g1 g %40
-		r2 g1 g2
+		\clef treble r2 g'1 g2
 		e e e e
 		d1 d
 		r2 e e a
@@ -917,8 +917,8 @@ NuncDimittisOrgano = {
 		g g1 f2
 		e a d, g
 		c, e d g~ %50
-		g d'1 d2
-		h g1 g2
+		g \clef "treble_8" d1 d2
+		h \clef bass g1 g2
 		e e e e
 		d1 d
 		r2 e e a %55
@@ -933,9 +933,9 @@ NuncDimittisOrgano = {
 		g c,
 		g'2 e f d %65
 		c1 g'
-		g2 d' h e
+		\clef treble g'2 \clef "treble_8" d h e
 		a, d g, c~
-		c g e a
+		c \clef bass g e a
 		d, g c, g'~ %70
 		g fis g1
 		d\breve
@@ -946,7 +946,7 @@ NuncDimittisOrgano = {
 
 NuncDimittisBassFigures = \figuremode {
 	r\breve
-	<5>2 <6> <5>1
+	<5>2 <6> r1
 	<5>\breve
 	<6>1 q
 	<3>\breve %5
@@ -994,7 +994,7 @@ NuncDimittisBassFigures = \figuremode {
 	r1. <[3]>2
 	q <6> <2> <6>
 	<3> q <7> <3>
-	<[2]> <6> <7> <3> %50
+	<[3]> <6> <7> <3> %50
 	r <_+>1.
 	<[6]>\breve
 	<7>2 <6\\>4 <5> <6\\>1
