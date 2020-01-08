@@ -915,3 +915,10 @@ NuncDimittisSopranoLyrics = \lyricmode {
 % SopranoLyrics = \lyricmode {
 % 	
 % }
+
+% Glo -- ri -- a Pa -- tri,
+% 	Pa -- tri, et Fi -- li -- o,
+% 	et Spi -- ri -- tu -- i San -- cto.
+% 	Si -- cut e -- rat in prin -- ci -- pi -- o
+% 	et nunc et sem -- per,
+% 	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men

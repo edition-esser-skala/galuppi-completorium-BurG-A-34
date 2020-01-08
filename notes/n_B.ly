@@ -740,25 +740,122 @@ NuncDimittisBassoNotes = {
 		\clef bass
 		\key g \mixolydian \time 2/1 \autoBeamOff \tempoNuncDimittis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		g'1. g2
+		g( fis) fis1
+		g2 g g g
+		e2. e4 e2 e
+		fis fis fis fis %5
+		d1 d
+		r2 e e d4 c
+		d1 g~
+		g2 fis4 e fis1
+		g\breve %10
+		R\breve*5 %15
+		r2 e1 e2
+		f!1 f
+		r2 d1 d2
+		e2. e4 e1
+		c2 c4 c c2 c %20
+		d1 d
+		R\breve*4 %25
+		r2 g1 g2
+		a a4 a a2 a
+		f1 f
+		g2. g4 g1
+		r2 e e2. e4 %30
+		f\breve
+		f1. f2
+		g1 g
+		g1. g2
+		c,1 c2. c4 %35
+		c1 d2 d
+		d d4 d e2. e4
+		e1 r
+		f2 f f f4 f
+		g1 g %40
+		R\breve*11 %51
+		r2 g1 g2
+		e e e e
+		d2. d4 d1
+		r2 e e a %55
+		g1 g
+		r2 g1 e2
+		g g4 g g2 a
+		g g1 f2
+		e a d, g %60
+		c, g'1 fis4 e
+		fis1 g~
+		g g~
+		g c,
+		g'2 e f d %65
+		c1 g'
+		R\breve*2
+		r2 g e a
+		d, g c, g'~ %70
+		g fis g1
+		d\breve
+		d
+		g,\fermata \bar "|." %74 finis
 	}
 }
 
 NuncDimittisBassoLyrics = \lyricmode {
-% 	Nunc di -- mit -- tis ser -- vum tu -- um Do -- mi -- ne,
-% 	se -- cun -- dum ver -- bum tu -- um in pa -- ce:
-% 	qui -- a vi -- de -- runt o -- cu -- li me -- i
-% 	sa -- lu -- ta -- re tu -- um,
-% 	quod pa -- ra -- sti an -- te fa -- ci -- em
-% 	om -- ni -- um po -- pu -- lo -- rum:
-% 	lu -- men ad re -- ve -- la -- ti -- o -- nem gen -- ti -- um,
-% 	et glo -- ri -- am ple -- bis tu -- ae Is -- ra -- el.
-% 	Glo -- ri -- a Pa -- tri,
-% 	Pa -- tri, et Fi -- li -- o,
-% 	et Spi -- ri -- tu -- i San -- cto.
-% 	Si -- cut e -- rat in prin -- ci -- pi -- o
-% 	et nunc et sem -- per,
-% 	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men
+	Nunc di --
+	mit -- tis
+	ser -- vum tu -- um
+	Do -- mi -- ne, se --
+	cun -- dum ver -- bum %5
+	tu -- um
+	in pa -- _ _
+	_ _
+	_ _ _
+	ce: %10
+	
+	quod pa -- %16
+	ra -- sti
+	an -- te
+	fa -- ci -- em
+	om -- ni -- um po -- pu -- %20
+	lo -- rum:
+	
+	lu -- men %26
+	ad re -- ve -- la -- ti --
+	o -- nem
+	gen -- ti -- um,
+	et glo -- ri -- %30
+	am
+	ple -- bis
+	tu -- ae
+	Is -- ra --
+	el. Glo -- ri -- %35
+	a Pa -- tri,
+	Pa -- tri, et Fi -- li --
+	o,
+	et Spi -- ri -- tu -- i
+	San -- cto. %40
+	
+	Si -- cut %52
+	e -- rat in prin --
+	ci -- pi -- o
+	et nunc et %55
+	sem -- per,
+	et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	_ _ _ _ %60
+	men, a -- _ _
+	_ men, __
+	a --
+	_
+	_ _ _ _ %65
+	_ men,
+	
+	a -- _ _ %69
+	_ _ _ _ %70
+	_ _
+	men,
+	a --
+	men. %74 finis
 }
 
 % BassoNotes = {
