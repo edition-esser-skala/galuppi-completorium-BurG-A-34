@@ -786,6 +786,19 @@ EcceNuncAltoLyrics = \lyricmode {
 	men. %51 finis
 }
 
+NuncDimittisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \mixolydian \time 4/1 \autoBeamOff \tempoNuncDimittis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+NuncDimittisAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -778,6 +778,19 @@ EcceNuncSopranoLyrics = \lyricmode {
 	men. %51 finis
 }
 
+NuncDimittisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \mixolydian \time 4/1 \autoBeamOff \tempoNuncDimittis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+NuncDimittisSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

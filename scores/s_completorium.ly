@@ -149,44 +149,87 @@
 % 			\midi { \tempo 1 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "4 ECCE NUNC BENEDICITE"
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \EcceNuncSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \EcceNuncSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \EcceNuncAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \EcceNuncAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \EcceNuncTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \EcceNuncTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \EcceNuncBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \EcceNuncBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EcceNuncOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \EcceNuncBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 1 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "4 ECCE NUNC BENEDICITE"
+			movement = "5 NUNC DIMITTIS"
 		}
 		\score {
 			<<
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \EcceNuncSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \NuncDimittisSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \EcceNuncSopranoLyrics
+					\new Lyrics \lyricsto Soprano \NuncDimittisSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EcceNuncAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \NuncDimittisAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \EcceNuncAltoLyrics
+					\new Lyrics \lyricsto Alto \NuncDimittisAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EcceNuncTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \NuncDimittisTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \EcceNuncTenoreLyrics
+					\new Lyrics \lyricsto Tenore \NuncDimittisTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \EcceNuncBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \NuncDimittisBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \EcceNuncBassoLyrics
+					\new Lyrics \lyricsto Basso \NuncDimittisBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EcceNuncOrgano
+						\NuncDimittisOrgano
 					}
 				>>
-				\new FiguredBass { \EcceNuncBassFigures }
+				\new FiguredBass { \NuncDimittisBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 1 = 60 }

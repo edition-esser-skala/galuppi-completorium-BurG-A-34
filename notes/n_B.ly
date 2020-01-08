@@ -735,6 +735,19 @@ EcceNuncBassoLyrics = \lyricmode {
 	men. %%1 finis
 }
 
+NuncDimittisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \mixolydian \time 4/1 \autoBeamOff \tempoNuncDimittis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+NuncDimittisBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

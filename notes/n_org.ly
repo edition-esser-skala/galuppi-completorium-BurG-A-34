@@ -862,6 +862,19 @@ EcceNuncBassFigures = \figuremode {
 	<[_+]>\breve %51 finis
 }
 
+NuncDimittisOrgano = {
+	\relative c {
+		\clef bass
+		\key g \mixolydian \time 4/1 \tempoNuncDimittis
+			\set Staff.timeSignatureFraction = 2/2
+		g'1. g2
+	}
+}
+
+NuncDimittisBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

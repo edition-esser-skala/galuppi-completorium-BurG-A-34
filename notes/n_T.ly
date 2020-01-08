@@ -767,6 +767,19 @@ EcceNuncTenoreLyrics = \lyricmode {
 	men. %%1 finis
 }
 
+NuncDimittisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \mixolydian \time 4/1 \autoBeamOff \tempoNuncDimittis
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+NuncDimittisTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
