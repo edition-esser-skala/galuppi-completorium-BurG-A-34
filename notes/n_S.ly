@@ -783,12 +783,125 @@ NuncDimittisSopranoNotes = {
 		\clef treble
 		\key g \mixolydian \time 2/1 \autoBeamOff \tempoNuncDimittis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*8 %8
+		r2 d' d d
+		d1 d~ %10
+		d2 d2. d4 d2
+		e1 e
+		cis2 cis cis cis
+		d1 d
+		r2 d1 d2 %15
+		e1 e
+		r2 c1 c2
+		d2. d4 d1
+		h2 h4 h h2 h
+		c1 c %20
+		R\breve*4
+		r2 d1 d2 %25
+		e e4 e e2 e
+		c1 c
+		d2. d4 d1
+		r2 h h2. h4
+		c\breve %30
+		r2 c1 c2
+		d1 d
+		g,\breve~
+		g1 g
+		g\breve %35
+		R
+		r1 g2 g
+		g g4 g a1
+		a r
+		r2 d1 d2 %40
+		h h h h
+		g2. g4 g1
+		r2 a a d
+		c1 c
+		r2 d1 h2 %45
+		d d4 d d2 e
+		d d1 c2
+		h e a, d
+		g, c1 h2
+		c c1 h2 %50
+		a\breve
+		d,1 d'~
+		d2 cis4 h cis1
+		d\breve
+		R\breve*7 %61
+		r2 d1 h2
+		d d4 d d2 e
+		d d1 c2
+		h e a, d %65
+		g, c1 h2
+		a1 h
+		c2 a h c
+		d1 e2 c~
+		c h c h %70
+		a1. g2
+		fis4 g a2. g4 g2~
+		g fis4 e fis1
+		g\breve\fermata \bar "|." %74 finis
 	}
 }
 
 NuncDimittisSopranoLyrics = \lyricmode {
+	Qui -- a vi -- %9
+	de -- runt __ %10
+	o -- cu -- li
+	me -- i
+	sa -- lu -- ta -- re
+	tu -- um,
+	quod pa -- %15
+	ra -- sti
+	an -- te
+	fa -- ci -- em
+	om -- ni -- um po -- pu --
+	lo -- rum: %20
 	
+	lu -- men %25
+	ad re -- ve -- la -- ti --
+	o -- nem
+	gen -- ti -- um,
+	et glo -- ri --
+	am %30
+	ple -- bis
+	tu -- ae
+	Is --
+	ra --
+	el. %35
+	
+	Et Spi --
+	ri -- tu -- i San --
+	cto.
+	Si -- cut %40
+	e -- rat in prin --
+	ci -- pi -- o
+	et nunc et
+	sem -- per,
+	et in %45
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	_ _ _ _
+	_ _ _
+	men, a -- _ %50
+	_
+	men, a --
+	_ _ _
+	men,
+	
+	et in %62
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	_ _ _ _ %65
+	_ _ _
+	_ men,
+	a -- _ _ _
+	_ men, a --
+	_ _ _ %70
+	_ _
+	_ _ _ _ _
+	_ _ _
+	men. %74 finis
 }
 
 % SopranoNotes = {
