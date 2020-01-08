@@ -772,25 +772,131 @@ NuncDimittisTenoreNotes = {
 		\clef "treble_8"
 		\key g \mixolydian \time 2/1 \autoBeamOff \tempoNuncDimittis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve
+		d1. d2
+		d( h) h1
+		c2 c c c
+		a2. a4 a2 a %5
+		h h h h
+		g1 g
+		r2 h h a4 g
+		a\breve
+		h %10
+		R\breve*4 %14
+		r2 h1 h2 %15
+		c1 c
+		r2 a1 a2
+		h2. h4 h1
+		g2 g4 g g2 g
+		a1 a %20
+		r2 d1 d2
+		e e4 e e2 e
+		c1 c
+		d2. d4 d1
+		R\breve*2 %26
+		r2 e e2. e4
+		d\breve
+		r2 d1 d2
+		c1 c %30
+		r2 c c2. c4
+		a2 a1 a2
+		h1 c~
+		c2 h4 a h2 h
+		c g2. g4 g2 %35
+		a a a a4 a
+		h2. h4 h1~
+		h r
+		a2 a a a4 a
+		h1 h %40
+		R\breve*10 %50
+		r2 d1 d2
+		h h h h
+		g2. g4 g1
+		r2 a a d
+		c!1 c %55
+		r2 d1 h2
+		d d4 d d2 e
+		d d1 c2
+		h e a, d
+		g, c1 h2 %60
+		c h a1~
+		a h~
+		h2 h1 c2
+		h1 e
+		d2 c1 h2 %65
+		c1 r
+		r2 d h e
+		a, d g, c~
+		c h c1
+		d e2 d %70
+		c1 h
+		a2. g8[ fis] h2. a8[ g]
+		a2 a2. h4 c d
+		h\breve\fermata \bar "|." %74 finis
 	}
 }
 
 NuncDimittisTenoreLyrics = \lyricmode {
-% 	Nunc di -- mit -- tis ser -- vum tu -- um Do -- mi -- ne,
-% 	se -- cun -- dum ver -- bum tu -- um in pa -- ce:
-% 	qui -- a vi -- de -- runt o -- cu -- li me -- i
-% 	sa -- lu -- ta -- re tu -- um,
-% 	quod pa -- ra -- sti an -- te fa -- ci -- em
-% 	om -- ni -- um po -- pu -- lo -- rum:
-% 	lu -- men ad re -- ve -- la -- ti -- o -- nem gen -- ti -- um,
-% 	et glo -- ri -- am ple -- bis tu -- ae Is -- ra -- el.
-% 	Glo -- ri -- a Pa -- tri,
-% 	Pa -- tri, et Fi -- li -- o,
-% 	et Spi -- ri -- tu -- i San -- cto.
-% 	Si -- cut e -- rat in prin -- ci -- pi -- o
-% 	et nunc et sem -- per,
-% 	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men
+	Nunc di -- %2
+	mit -- tis
+	ser -- vum tu -- um
+	Do -- mi -- ne, se -- %5
+	cun -- dum ver -- bum
+	tu -- um
+	in pa -- _ _
+	_
+	ce: %10
+	
+	quod pa -- %15
+	ra -- sti
+	an -- te
+	fa -- ci -- em
+	om -- ni -- um po -- pu --
+	lo -- rum: %20
+	lu -- men
+	ad re -- ve -- la -- ti --
+	o -- nem
+	gen -- ti -- um,
+	
+	et glo -- ri -- %27
+	am
+	ple -- bis
+	tu -- ae, %30
+	et glo -- ri --
+	am ple -- bis
+	tu -- ae __
+	_ _ Is -- ra --
+	el. Glo -- ri -- a %35
+	Pa -- tri, Pa -- tri, et
+	Fi -- li -- o, __
+	
+	et Spi -- ri -- tu -- i
+	San -- cto. %40
+	
+	Si -- cut %51
+	e -- rat in prin --
+	ci -- pi -- o
+	et nunc et
+	sem -- per, %55
+	et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	_ _ _ _
+	_ _ _ %60
+	_ _ men, __
+	a --
+	men, a --
+	men, a --
+	_ _ _ %65
+	men,
+	a -- _ _
+	_ _ _ _
+	_ men,
+	a -- _ _ %70
+	_ _
+	_ _ _ _
+	_ _ _ _ _
+	men. %74 finis
 }
 
 % TenoreNotes = {
