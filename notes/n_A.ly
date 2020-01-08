@@ -791,25 +791,125 @@ NuncDimittisAltoNotes = {
 		\clef treble
 		\key g \mixolydian \time 2/1 \autoBeamOff \tempoNuncDimittis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*9 %9
+		r2 g' g g %10
+		g1 g~
+		g2 g2. g4 g2
+		a1 a
+		fis2 fis fis fis
+		g1 g %15
+		r2 g1 g2
+		a1 a
+		r2 f!1 f2
+		g2. g4 g1
+		e2 e4 e e2 e %20
+		fis1 fis
+		r2 g1 g2
+		a a4 a a2 a
+		f!1 f
+		g2. g4 g1 %25
+		r2 h h2. h4
+		a\breve
+		r2 a1 a2
+		g1 g
+		r2 g g2. g4 %30
+		a2 a a2. a4
+		f1 f~
+		f2 e4( d) e2 d4( c)
+		d1. d2
+		e\breve %35
+		R\breve*2
+		r1 c2 c
+		c c4 c d1
+		d r %40
+		r2 g1 g2
+		e e e e
+		d2. d4 d1
+		r2 e e a
+		g1 g %45
+		r2 g1 e2
+		g g4 g g2 a
+		g g1 f2
+		e a d, g
+		c, e d g~ %50
+		g fis4 e fis1
+		g\breve
+		g
+		fis?
+		R\breve*8 %62
+		r2 g1 e2
+		g g4 g g2 a
+		g g1 f2 %65
+		e a d, g~
+		g fis g1~
+		g2 f1 e2
+		d g1 e2
+		f g1 g2 %70
+		e( d1) d2
+		d1 d
+		d\breve
+		d\fermata \bar "|." %74 finis
 	}
 }
 
 NuncDimittisAltoLyrics = \lyricmode {
-	Nunc di -- mit -- tis ser -- vum tu -- um Do -- mi -- ne,
-	se -- cun -- dum ver -- bum tu -- um in pa -- ce:
-	qui -- a vi -- de -- runt o -- cu -- li me -- i
-	sa -- lu -- ta -- re tu -- um,
-	quod pa -- ra -- sti an -- te fa -- ci -- em
-	om -- ni -- um po -- pu -- lo -- rum:
-	lu -- men ad re -- ve -- la -- ti -- o -- nem gen -- ti -- um,
-	et glo -- ri -- am ple -- bis tu -- ae Is -- ra -- el.
-	Glo -- ri -- a Pa -- tri,
-	Pa -- tri, et Fi -- li -- o,
-	et Spi -- ri -- tu -- i San -- cto.
-	Si -- cut e -- rat in prin -- ci -- pi -- o
-	et nunc et sem -- per,
-	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men
+	Qui -- a vi -- %10
+	de -- runt __
+	o -- cu -- li
+	me -- i
+	sa -- lu -- ta -- re
+	tu -- um, %15
+	quod pa --
+	ra -- sti
+	an -- te
+	fa -- ci -- em
+	om -- ni -- um po -- pu -- %20
+	lo -- rum:
+	lu -- men
+	ad re -- ve -- la -- ti --
+	o -- nem
+	gen -- ti -- um, %25
+	et glo -- ri --
+	am
+	ple -- bis
+	tu -- ae,
+	et glo -- ri -- %30
+	am, et glo -- ri --
+	am ple --
+	bis __ tu -- ae __
+	Is -- ra --
+	el. %35
+	
+	Et Spi -- %38
+	ri -- tu -- i San --
+	cto. %40
+	Si -- cut
+	e -- rat in prin --
+	ci -- pi -- o
+	et nunc et
+	sem -- per, %45
+	et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	_ _ _ _
+	_ _ _ _ %50
+	_ _ _
+	men,
+	a --
+	men,
+	
+	et in %63
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a -- %65
+	_ _ _ _
+	_ men, __
+	a -- _
+	_ _ _
+	_ _ men, %70
+	a -- men,
+	a -- men,
+	a --
+	men. %74 finis
 }
 
 % AltoNotes = {

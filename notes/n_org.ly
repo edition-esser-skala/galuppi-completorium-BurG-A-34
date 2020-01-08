@@ -883,7 +883,7 @@ NuncDimittisOrgano = {
 		fis2 fis fis fis
 		g h1 h2 %15
 		c e,1 e2
-		f1 f
+		f!1 f
 		r2 d1 d2
 		e1 e
 		c2 c c c %20
@@ -891,8 +891,8 @@ NuncDimittisOrgano = {
 		e2 e e e
 		c1 c
 		d d
-		e e %25
-		r2 g1 g2
+		\clef treble g' g %25
+		\clef bass r2 g,1 g2
 		a a a a
 		f1 f
 		g g
@@ -956,9 +956,9 @@ NuncDimittisBassFigures = \figuremode {
 	r
 	r %10
 	r
-	r
-	r
-	r
+	<[6]>
+	<[_+]>
+	<[6]>
 	r2 <6>1. %15
 	r2 <6>1.
 	r\breve
@@ -974,7 +974,7 @@ NuncDimittisBassFigures = \figuremode {
 	<_!>\breve
 	<6>
 	<5>
-	r %30
+	<[6]> %30
 	r
 	<6>
 	<7 3>1 <6 4>
@@ -991,12 +991,12 @@ NuncDimittisBassFigures = \figuremode {
 	r2 <6>1.
 	r\breve %45
 	r
-	r
-	r2 <5 2>1 <6>2
+	r1. <[6]>2
+	q <6> <2> <6>
 	<3> q <7> <3>
 	r <6> <7> <3> %50
 	r <_+>1.
-	r\breve
+	<[6]>\breve
 	<7>2 <6\\>4 <5> <6\\>1
 	<_+>\breve
 	r2 <6>1. %55
@@ -1006,18 +1006,18 @@ NuncDimittisBassFigures = \figuremode {
 	<7>2 <6> <5> <6>
 	<3> <_!> <7> <3> %60
 	<8> <[3]> <2> <3>
-	<6 5>\breve
-	r1 <5 3>2 <6 4>
-	r1 <9 5>2 <8 6>
+	<6>1 <5>
+	r <5 3>2 <6 4>
+	<[5 3]>1 <9 5>2 <8 6>
 	r <6> <9> <8 6> %65
 	<5> <6> <4> <3>
-	r <_+> <6> <3>
+	<[2]> <_+> <6> <3>
 	<7 3> <_!> <7 3> r
 	<2> <3> <6>1
-	r\breve %70
+	<[7]>\breve %70
 	<4 2>2 <6 5> <9> <8>
-	<5 _+>1 <6 4>
-	<5 4> <\l _+>
+	<5 _+>1 <6 [5]>2 <\t 4>
+	<5 4>1 <\l _+>
 	r\breve %74 finis
 }
 

@@ -745,7 +745,20 @@ NuncDimittisBassoNotes = {
 }
 
 NuncDimittisBassoLyrics = \lyricmode {
-	
+% 	Nunc di -- mit -- tis ser -- vum tu -- um Do -- mi -- ne,
+% 	se -- cun -- dum ver -- bum tu -- um in pa -- ce:
+% 	qui -- a vi -- de -- runt o -- cu -- li me -- i
+% 	sa -- lu -- ta -- re tu -- um,
+% 	quod pa -- ra -- sti an -- te fa -- ci -- em
+% 	om -- ni -- um po -- pu -- lo -- rum:
+% 	lu -- men ad re -- ve -- la -- ti -- o -- nem gen -- ti -- um,
+% 	et glo -- ri -- am ple -- bis tu -- ae Is -- ra -- el.
+% 	Glo -- ri -- a Pa -- tri,
+% 	Pa -- tri, et Fi -- li -- o,
+% 	et Spi -- ri -- tu -- i San -- cto.
+% 	Si -- cut e -- rat in prin -- ci -- pi -- o
+% 	et nunc et sem -- per,
+% 	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men
 }
 
 % BassoNotes = {
