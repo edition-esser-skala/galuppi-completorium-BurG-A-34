@@ -1026,10 +1026,54 @@ TeLucisOrgano = {
 		\clef bass
 		\key g \mixolydian \time 2/1 \tempoTeLucis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		\partial 1 e1~ e2 e c c~
+		c e f1
+		g c,2 c~
+		c c f1
+		d e %5
+		a, f'~
+		f2 h1 e,2~
+		e c f1~
+		f2 d a' a
+		f f d1 %10
+		c g'
+		c, a'~
+		a2 a h h
+		g g a1
+		a2 f f f %15
+		g g e e
+		f1 f2 d~
+		d d e e
+		c c d1
+		d\breve %20
+		d~
+		d
+		g,\fermata \bar "|." %23 FINIS
 	}
 }
 
 TeLucisBassFigures = \figuremode {
-	
+	<_!>1 r\breve
+	r1 <5>2 <6>
+	<3>\breve
+	r
+	r1 <6 4>2 <5 _+> %5
+	r1 <5>2 <6>
+	r <6 3>1 <5>2
+	<6>\breve
+	r
+	<6>2 <5> <7> <6> %10
+	<4> <3> <4> <3>
+	r1 <5>
+	<6> <5>
+	<6>\breve
+	<5>1 <6> %15
+	r <6>
+	r1. <5>2
+	<6>\breve
+	<6>1 <_+>
+	<6 5> <\t 4> %20
+	<5 3> <6 4>
+	<5 4> <\t _+>
+	r\breve %23 FINIS
 }
