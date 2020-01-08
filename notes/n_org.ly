@@ -865,14 +865,160 @@ EcceNuncBassFigures = \figuremode {
 NuncDimittisOrgano = {
 	\relative c {
 		\clef bass
-		\key g \mixolydian \time 4/1 \tempoNuncDimittis
+		\key g \mixolydian \time 2/1 \tempoNuncDimittis
 			\set Staff.timeSignatureFraction = 2/2
 		g'1. g2
+		g fis g1
+		g2 g g g
+		e1 e2 e
+		fis fis fis fis %5
+		d1 d
+		r2 e e d4 c
+		d1 g~
+		g2 fis4 e fis1
+		g\breve %10
+		g1 g~
+		g2 g1 g2
+		a1 a
+		fis2 fis fis fis
+		g h1 h2 %15
+		c e,1 e2
+		f1 f
+		r2 d1 d2
+		e1 e
+		c2 c c c %20
+		d1 d
+		e2 e e e
+		c1 c
+		d d
+		e e %25
+		r2 g1 g2
+		a a a a
+		f1 f
+		g g
+		r2 e e1 %30
+		f\breve
+		f1. f2
+		g\breve
+		g
+		c,1 c %35
+		c d2 d
+		d d e1
+		e c2 c
+		f f f f
+		g1 g %40
+		r2 g1 g2
+		e e e e
+		d1 d
+		r2 e e a
+		g1 g %45
+		r2 g1 e2
+		g g g a
+		g g1 f2
+		e a d, g
+		c, e d g~ %50
+		g d'1 d2
+		h g1 g2
+		e e e e
+		d1 d
+		r2 e e a %55
+		g1 g
+		r2 g1 e2
+		g g g a
+		g g1 f2
+		e a d,g %60
+		c, g'1 fis4 e
+		fis1 g~
+		g g~
+		g c,
+		g'2 e f d %65
+		c1 g'
+		g2 d' h e
+		a, d g, c~
+		c g e a
+		d, g c, g'~ %70
+		g fis g1
+		d\breve
+		d
+		g,\fermata \bar "|." %74 finis
 	}
 }
 
 NuncDimittisBassFigures = \figuremode {
-	
+	r\breve
+	<5>2 <6> q1
+	<5>\breve
+	<6>1 q
+	<3>\breve %5
+	<6>
+	r
+	r
+	r
+	r %10
+	r
+	r
+	r
+	r
+	r2 <6>1. %15
+	r2 <6>1.
+	r\breve
+	r2 <6>1.
+	<5>\breve
+	<6> %20
+	<_+>
+	r
+	<6>
+	<_!>
+	r %25
+	r2 <6>1.
+	<_!>\breve
+	<6>
+	<5>
+	r %30
+	r
+	<6>
+	<7 3>1 <6 4>
+	<4> <3>
+	r\breve %35
+	<6>2 <5> r1
+	<6> <5>
+	<5> <6>
+	<5> <6>
+	<5>\breve %40
+	r
+	<3>
+	r
+	r2 <6>1.
+	r\breve %45
+	r
+	r
+	r2 <5 2>1 <6>2
+	<3> q <7> <3>
+	r <6> <7> <3> %50
+	r <_+>1.
+	r\breve
+	<7>2 <6\\>4 <5> <6\\>1
+	<_+>\breve
+	r2 <6>1. %55
+	r\breve
+	r
+	r
+	<7>2 <6> <5> <6>
+	<3> <_!> <7> <3> %60
+	<8> <[3]> <2> <3>
+	<6 5>\breve
+	r1 <5 3>2 <6 4>
+	r1 <9 5>2 <8 6>
+	r <6> <9> <8 6> %65
+	<5> <6> <4> <3>
+	r <_+> <6> <3>
+	<7 3> <_!> <7 3> r
+	<2> <3> <6>1
+	r\breve %70
+	<4 2>2 <6 5> <9> <8>
+	<5 _+>1 <6 4>
+	<5 4> <\l _+>
+	r\breve %74 finis
 }
 
 % Organo = {
