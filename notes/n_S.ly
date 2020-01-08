@@ -909,17 +909,80 @@ TeLucisSopranoNotes = {
 		\clef treble
 		\key g \mixolydian \time 2/1 \autoBeamOff \tempoTeLucis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		\partial 1 g'1 g2 g g g
+		g1 a
+		g g2 g
+		g g a a
+		a a1( gis2) %5
+		a c1 a2
+		d1. h2
+		e e c c
+		a1. a2
+		d a d1 %10
+		g, g2^\critnote g
+		g1 r
+		R\breve
+		r1 r2 \once \tieDashed c~
+		c c d4. d8 d2 %15
+		h h \once \tieDashed c1~
+		c r
+		r2 h1 h2
+		c4. c8 c2 a a
+		h1 h %20
+		a2 a2. g4 g2~
+		g fis4 e fis1
+		g\breve\fermata \bar "|." %23 FINIS
 	}
 }
 
-TeLucisSopranoLyrics = \lyricmode {
+TeLucisSopranoLyricsA = \lyricmode {
+	Te lu -- cis an -- te
+	ter -- _
+	mi -- num, te
+	lu -- cis an -- te
+	ter -- mi -- %5
+	num, re -- rum
+	Cre -- _
+	a -- tor, po -- sci --
+	mus, re --
+	rum Cre -- a -- %10
+	tor, po -- sci --
+	mus,
 	
+	ut __
+	pro tu -- a cle -- men -- %15
+	ti -- a __
+	
+	sis prae --
+	sul et cu -- sto -- di --
+	a, prae -- %20
+	sul et cu -- sto --
+	_ _ di --
+	a. %23 FINIS
 }
 
-% Glo -- ri -- a Pa -- tri,
-% 	Pa -- tri, et Fi -- li -- o,
-% 	et Spi -- ri -- tu -- i San -- cto.
-% 	Si -- cut e -- rat in prin -- ci -- pi -- o
-% 	et nunc et sem -- per,
-% 	et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men
+TeLucisSopranoLyricsB = \lyricmode {
+	Prae -- sta, Pa -- ter pi --
+	is -- _
+	si -- me, prae --
+	sta, Pa -- ter pi --
+	is -- si -- %5
+	me, Pa -- tri --
+	que __ _
+	com -- par U -- ni --
+	ce, Pa --
+	tri -- que com -- %10
+	par U -- ni --
+	ce,
+	
+	cum __
+	Spi -- ri -- tu Pa -- ra -- %15
+	cli -- to __
+	
+	re -- gnans
+	per __ _ om -- _ ne
+	sae -- cu -- %20
+	lum, om -- ne sae --
+	_ _ cu --
+	lum. %23 finis
+}

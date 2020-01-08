@@ -246,7 +246,8 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \TeLucisSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \TeLucisSopranoLyrics
+					\new Lyrics \lyricsto Soprano \TeLucisSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \TeLucisSopranoLyricsB
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"

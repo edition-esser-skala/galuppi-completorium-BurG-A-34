@@ -922,5 +922,16 @@ TeLucisAltoNotes = {
 }
 
 TeLucisAltoLyrics = \lyricmode {
-	
+	Te lu -- cis an -- te ter -- mi -- num,
+	re -- rum Cre -- a -- tor, po -- sci -- mus,
+	ut pro tu -- a cle -- men -- ti -- a
+	sis prae -- sul et cu -- sto -- di -- a.
+	Pro -- cul re -- ce -- dant som -- ni -- a
+	et no -- cti -- um phan -- ta -- sma -- ta;
+	ho -- stem -- que no -- strum com -- pri -- me,
+	ne pol -- lu -- an -- tur cor -- po -- ra.
+	Prae -- sta, Pa -- ter pi -- is -- si -- me,
+	Pa -- tri -- que com -- par U -- ni -- ce,
+	cum Spi -- ri -- tu Pa -- ra -- cli -- to
+	re -- gnans per om -- ne sae -- cu -- lum.
 }
