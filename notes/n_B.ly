@@ -863,10 +863,77 @@ TeLucisBassoNotes = {
 		\clef bass
 		\key g \mixolydian \time 2/1 \autoBeamOff \tempoTeLucis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		\partial 1 e1 e2 e c c
+		c e f1
+		g c,2 c
+		c c f f
+		d1 e %5
+		a, r
+		r r2 e'~
+		e c f1~
+		f2 f a a
+		f f d d %10
+		c c g'1
+		c, r
+		R\breve*2
+		r2 f1 f2 %15
+		g4. g8 g2 e e
+		\once \tieDashed f1~ f2 d~
+		d d e4. e8 e2
+		c c d1
+		d\breve %20
+		d
+		d
+		g,\fermata \bar "|." %23 FINIS
 	}
 }
 
-TeLucisBassoLyrics = \lyricmode {
+TeLucisBassoLyricsA = \lyricmode {
+	Te lu -- cis an -- te
+	ter -- _ _
+	mi -- num, te
+	lu -- cis an -- te
+	ter -- mi -- %5
+	num,
+	re --
+	rum Cre --
+	a -- tor, po --
+	sci -- mus, Cre -- a -- %10
+	tor, po -- sci --
+	mus,
 	
+	ut pro %15
+	tu -- a cle -- men -- ti --
+	a __ sis __
+	prae -- sul et cu --
+	sto -- di -- a,
+	cu -- %20
+	sto --
+	di --
+	a. %23 FINIS
+}
+
+TeLucisBassoLyricsB = \lyricmode {
+	Prae -- sta, Pa -- ter pi --
+	is -- _ _
+	si -- me, prae --
+	sta, Pa -- ter pi --
+	is -- si -- %5
+	me,
+	Pa --
+	tri -- que __
+	com -- par U --
+	ni -- ce, com -- _ %10
+	par U -- ni --
+	ce,
+	
+	cum Spi -- %15
+	ri -- tu Pa -- ra -- cli --
+	to __ re --
+	gnans per om -- ne
+	sae -- cu -- lum,
+	sae -- %20
+	_
+	cu --
+	lum. %23 FINIS
 }

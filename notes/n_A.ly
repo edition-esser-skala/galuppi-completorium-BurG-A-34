@@ -917,21 +917,80 @@ TeLucisAltoNotes = {
 		\clef treble
 		\key g \mixolydian \time 2/1 \autoBeamOff \tempoTeLucis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		\partial 1 e1 e2 e e e
+		e1 d
+		d e2 e
+		e e c c
+		f1 e %5
+		e f~
+		f2 d g1~
+		g2 e a a
+		f f e1
+		f f %10
+		f2 e d1
+		e2 e1 e2
+		f4. f8 f2 d d
+		e1 e
+		a\breve %15
+		g
+		a1 f2 f~
+		f f g4. g8 g2
+		e e fis1
+		fis?2 g d1 %20
+		d d
+		d\breve
+		d\fermata \bar "|." %23 FINIS
 	}
 }
 
-TeLucisAltoLyrics = \lyricmode {
-	Te lu -- cis an -- te ter -- mi -- num,
-	re -- rum Cre -- a -- tor, po -- sci -- mus,
-	ut pro tu -- a cle -- men -- ti -- a
-	sis prae -- sul et cu -- sto -- di -- a.
-	Pro -- cul re -- ce -- dant som -- ni -- a
-	et no -- cti -- um phan -- ta -- sma -- ta;
-	ho -- stem -- que no -- strum com -- pri -- me,
-	ne pol -- lu -- an -- tur cor -- po -- ra.
-	Prae -- sta, Pa -- ter pi -- is -- si -- me,
-	Pa -- tri -- que com -- par U -- ni -- ce,
-	cum Spi -- ri -- tu Pa -- ra -- cli -- to
-	re -- gnans per om -- ne sae -- cu -- lum.
+TeLucisAltoLyricsA = \lyricmode {
+	Te lu -- cis an -- te
+	ter -- _
+	mi -- num, te
+	lu -- cis an -- te
+	ter -- mi -- %5
+	num, re --
+	rum Cre --
+	a -- tor, po --
+	sci -- mus, Cre --
+	a -- tor, %10
+	po -- _ sci --
+	mus, ut pro
+	tu -- a cle -- men -- ti --
+	a, cle --
+	men -- %15
+	_
+	ti -- a sis __
+	prae -- sul et cu --
+	sto -- di -- a,
+	prae -- sul et %20
+	cu -- sto --
+	di --
+	a. %23 FINIS
+}
+
+TeLucisAltoLyricsB = \lyricmode {
+	Prae -- sta, Pa -- ter pi --
+	is -- _
+	si -- me, prae --
+	sta, Pa -- ter pi --
+	is -- si -- %5
+	me, Pa --
+	tri -- que __
+	com -- par U --
+	ni -- ce,
+	com -- par U -- %10
+	ni -- _ _
+	ce, cum Spi --
+	ri -- tu Pa -- ra -- cli --
+	to, Pa --
+	ra -- %15
+	_
+	cli -- to re --
+	gnans per om -- ne
+	sae -- cu -- lum,
+	per __ _ om -- %20
+	ne sae --
+	cu --
+	lum. %23 FINIS
 }

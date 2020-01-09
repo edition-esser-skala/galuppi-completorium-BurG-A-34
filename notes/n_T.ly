@@ -904,10 +904,80 @@ TeLucisTenoreNotes = {
 		\clef "treble_8"
 		\key g \mixolydian \time 2/1 \autoBeamOff \tempoTeLucis
 			\set Staff.timeSignatureFraction = 2/2
-		
+		\partial 1 h1 h2 h c c
+		c1. h4 a
+		h1 c2 c
+		c c a a
+		d1 c2( h) %5
+		c1 r
+		r2 h1 g2
+		c1. a2
+		d d c c
+		a c c h %10
+		c4 g c1( h2)
+		c1 a~
+		a2 a h4. h8 h2
+		g g a1
+		a d~ %15
+		d c
+		c2 a1 a2
+		h4. h8 h2 g g
+		a1 a~
+		a2 g1 g2 %20
+		fis2. g8[ a] h2. a8[ g]
+		a1 a
+		h\breve\fermata \bar "|." %23 FINIS
 	}
 }
 
-TeLucisTenoreLyrics = \lyricmode {
-	
+TeLucisTenoreLyricsA = \lyricmode {
+	Te lu -- cis an -- te
+	ter -- _ _
+	mi -- num, te
+	lu -- cis an -- te
+	ter -- mi -- %5
+	num,
+	re -- rum
+	Cre -- a --
+	tor, po -- sci -- mus,
+	re -- rum Cre -- %10
+	a -- tor, po -- sci --
+	mus, ut __
+	pro tu -- a cle --
+	men -- ti -- a,
+	cle -- men -- %15
+	ti --
+	a sis prae --
+	sul et cu -- sto -- di --
+	a, prae --
+	sul et %20
+	cu -- _ _ _
+	sto -- di --
+	a. %23 FINIS
+}
+
+TeLucisTenoreLyricsB = \lyricmode {
+	Prae -- sta, Pa -- ter pi --
+	is -- _ _
+	si -- me, prae --
+	sta, Pa -- ter pi --
+	is -- si -- %5
+	me,
+	Pa -- tri --
+	que com --
+	par U -- ni -- ce,
+	Pa -- tri -- que com -- %10
+	par U -- ni --
+	ce, cum __
+	Spi -- ri -- tu Pa --
+	ra -- cli -- to,
+	Pa -- ra -- %15
+	cli --
+	to re -- gnans
+	per om -- ne sae -- cu --
+	lum, per __
+	om -- ne %20
+	sae -- _ _ _
+	_ cu --
+	lum. %23 FINIS
 }

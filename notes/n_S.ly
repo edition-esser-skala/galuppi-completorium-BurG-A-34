@@ -918,11 +918,11 @@ TeLucisSopranoNotes = {
 		d1. h2
 		e e c c
 		a1. a2
-		d a d1 %10
+		d( a) d1 %10
 		g, g2^\critnote g
 		g1 r
 		R\breve
-		r1 r2 \once \tieDashed c~
+		r1 r2 c~
 		c c d4. d8 d2 %15
 		h h \once \tieDashed c1~
 		c r
@@ -942,16 +942,16 @@ TeLucisSopranoLyricsA = \lyricmode {
 	lu -- cis an -- te
 	ter -- mi -- %5
 	num, re -- rum
-	Cre -- _
-	a -- tor, po -- sci --
-	mus, re --
-	rum Cre -- a -- %10
+	Cre -- a --
+	tor, po -- sci -- mus,
+	re -- rum
+	Cre -- a -- %10
 	tor, po -- sci --
-	mus,
+	mus, %12
 	
 	ut __
-	pro tu -- a cle -- men -- %15
-	ti -- a __
+	pro tu -- a cle -- %15
+	men -- ti -- a __
 	
 	sis prae --
 	sul et cu -- sto -- di --
@@ -968,21 +968,21 @@ TeLucisSopranoLyricsB = \lyricmode {
 	sta, Pa -- ter pi --
 	is -- si -- %5
 	me, Pa -- tri --
-	que __ _
-	com -- par U -- ni --
-	ce, Pa --
-	tri -- que com -- %10
+	que com --
+	par U -- ni -- ce,
+	Pa -- tri --
+	que __ com -- %10
 	par U -- ni --
 	ce,
 	
 	cum __
-	Spi -- ri -- tu Pa -- ra -- %15
-	cli -- to __
+	Spi -- ri -- tu Pa -- %15
+	ra -- cli -- to __
 	
 	re -- gnans
-	per __ _ om -- _ ne
-	sae -- cu -- %20
-	lum, om -- ne sae --
+	per om -- ne sae -- cu --
+	lum, per %20
+	om -- ne __ _ sae --
 	_ _ cu --
-	lum. %23 finis
+	lum. %23 FINIS
 }
