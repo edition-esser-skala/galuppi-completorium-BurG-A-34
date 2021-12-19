@@ -1,17 +1,18 @@
-composer: Galuppi, Baldassare
+composer:
+  last: Galuppi
+  first: Baldassare
 title: Completorium
-id: BurG App. 34
+id: BurG Anh. 34
 genre: psalm
 scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2973-E-2
-    type: manuscript copy
     date: 1750–1764
     rism: 212006100
-    url: http://digital.slub-dresden.de/id416295207
-github: galuppi-completorium-BurG-A-34
-imslp: Completorium_in_G_major%2C_B.Anh.34_(Galuppi%2C_Baldassare)
-notes:
-
+    url: https://digital.slub-dresden.de/id416295207
+    license: public domain
+    principal: true
+imslp: Completorium_in_G_major,_B.Anh.34_(Galuppi,_Baldassare)
